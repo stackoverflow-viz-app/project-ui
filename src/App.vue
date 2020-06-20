@@ -1,21 +1,14 @@
 <template>
-  <v-app>
-  <SideBar/>
-  </v-app>
+    <SiteNavigator/>
 </template>
 
 <script>
-import SideBar from './components/SideBar.vue';
+import SiteNavigator from './components/SiteNavigator.vue';
 
 export default {
   name: 'App',
-
   components: {
-    SideBar,
+    SiteNavigator,
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
