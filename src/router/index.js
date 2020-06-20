@@ -4,6 +4,7 @@ import Home from '../components/pages/Home.vue';
 import About from '../components/pages/About.vue';
 import Youtube from '../components/pages/Youtube.vue';
 import Dashboards from '../components/pages/Dashboards.vue';
+import NotFound from '../components/pages/NotFound.vue';
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound,
   },
 ];
 
