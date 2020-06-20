@@ -10,8 +10,7 @@
       </v-app-bar>
     </div>
     <v-navigation-drawer
-          v-model="drawer" :color="color" :expand-on-hover="expandOnHover"
-          :mini-variant="miniVariant" :right="right" :permanent="drawer" dark>
+          v-model="drawer" :color="color" temporary dark>
 
     <v-list
         dense nav class="py-0">
@@ -60,10 +59,6 @@ export default {
       ],
       color: 'blue darken-4',
       drawer: false,
-      right: false,
-      miniVariant: false,
-      expandOnHover: false,
-      background: false,
     };
   },
   methods: {
