@@ -10,34 +10,45 @@
       </v-app-bar>
     </div>
     <v-navigation-drawer
-          v-model="drawer" :color="color" temporary dark>
+          v-model="drawer" :color="color" app temporary dark>
 
-    <v-list
-        dense nav class="py-0">
+      <v-list
+          dense nav class="py-0">
 
-        <v-list-item :class="miniVariant && 'px-0'">
-            <v-list-item-content>
-            <v-list-item-title>Menu</v-list-item-title>
-            </v-list-item-content>
-        </v-list-item>
+          <v-list-item :class="miniVariant && 'px-0'">
+              <v-list-item-content>
+              <v-list-item-title>Menu</v-list-item-title>
+              </v-list-item-content>
+          </v-list-item>
 
-        <v-divider></v-divider>
+          <v-divider></v-divider>
 
-        <v-list-item
-            v-for="item in items"
-            :key="item.title"
-            link>
+          <v-list-item
+              v-for="item in items"
+              :key="item.title"
+              link :to="item.href">
 
-            <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
+              <v-list-item-icon>
+              <v-icon>{{ item.icon }}</v-icon>
+              </v-list-item-icon>
 
-            <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-            </v-list-item-content>
-        </v-list-item>
-    </v-list>
+              <v-list-item-content>
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </v-list-item-content>
+          </v-list-item>
+      </v-list>
     </v-navigation-drawer>
+    <v-content>
+      <v-container fluid>
+        <v-row class="fill-height">
+          <v-col>
+            <transition name="fade">
+              <router-view></router-view>
+            </transition>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-content>
     </v-app>
 </template>
 
@@ -51,11 +62,27 @@ export default {
 
   data() {
     return {
-      items: [
-        { title: 'Home', icon: 'mdi-home' },
-        { title: 'Dashboards', icon: 'mdi-view-dashboard' },
-        { title: 'About Team', icon: 'mdi-account' },
-        { title: 'Youtube channel', icon: 'mdi-youtube' },
+      items: [{
+        href: 'home',
+        router: true,
+        title: 'Home',
+        icon: 'mdi-home',
+      }, {
+        href: 'dashboards',
+        router: true,
+        title: 'Dashboards',
+        icon: 'mdi-view-dashboard',
+      }, {
+        href: 'about',
+        router: true,
+        title: 'About Team',
+        icon: 'mdi-account',
+      }, {
+        href: 'youtube',
+        router: true,
+        title: 'Youtube channel',
+        icon: 'mdi-youtube',
+      },
       ],
       color: 'blue darken-4',
       drawer: false,
