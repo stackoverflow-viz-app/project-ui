@@ -1,6 +1,7 @@
 <template>
     <v-container>
-        <h2>Dashboards page</h2>
+      <v-header>Dashboards page</v-header>
+      <v-divider/>
     </v-container>
 </template>
 

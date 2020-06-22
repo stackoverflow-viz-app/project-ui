@@ -1,6 +1,7 @@
 <template>
-    <v-container>
-        <h2>Youtube Channel page</h2>
+     <v-container>
+      <v-header>Youtube Video</v-header>
+      <v-divider/>
     </v-container>
 </template>
 
