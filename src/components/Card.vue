@@ -2,6 +2,7 @@
     <div class="card-layout">
       <v-card
         max-width="330"
+        max-height="400"
         class="mx-auto"
       >
         <v-list-item>
@@ -23,10 +24,9 @@
           ></v-img>
         </v-avatar>
         </v-layout>
-        <v-card-text>
+        <v-card-text class="card-desc-text">
           {{description}}
         </v-card-text>
-
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn icon :href="github" :color="color">
@@ -65,6 +65,11 @@ export default {
   text-align: center;
   align-items: center;
   color: #01579B;
+}
+
+.card-desc-text{
+  overflow-y: auto;
+  max-height: 15vh;
 }
 
 </style>

@@ -33,7 +33,7 @@ export default {
       }, {
         name: 'Nikolas Bompetsis',
         imageName: 'nbob.jpeg',
-        description: 'Super nerd who loves Vim, Linux/OS X, new technologies and to be involved in Open-Source projects.',
+        description: 'Super nerd who loves Vim, Linux/OS X, new per nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new ttechnologies and to be involved in Open-Source projects.',
         github: 'https://github.com/nbompetsis',
         linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
       }, {
