@@ -2,7 +2,7 @@
     <div class="card-layout">
       <v-card
         max-width="330"
-        max-height="400"
+        max-height="410"
         class="mx-auto"
       >
         <v-list-item>
@@ -69,7 +69,7 @@ export default {
 
 .card-desc-text{
   overflow-y: auto;
-  max-height: 15vh;
+  height: 11vh;
 }
 
 </style>

@@ -39,7 +39,7 @@ export default {
       }, {
         name: 'Nikolas Bompetsis',
         imageName: 'nbob.jpeg',
-        description: 'Super nerd who loves Vim, Linux/OS X, new technologies and to be involved in Open-Source projects.',
+        description: 'Super nerd who loves Vim, Linux/OS X, new technologies and to be involved ',
         github: 'https://github.com/nbompetsis',
         linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
       },
