@@ -56,7 +56,8 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   flex-flow: center;
-  margin: 20px 20px 0px 0px;
-  padding-bottom: 10px;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
 }
 </style>
