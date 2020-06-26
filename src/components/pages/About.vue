@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Card from '../Card.vue';
+import Card from '../base/Card.vue';
 
 export default {
   components: {

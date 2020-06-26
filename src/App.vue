@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import SiteNavigator from './components/SiteNavigator.vue';
+import SiteNavigator from './components/base/SiteNavigator.vue';
 
 export default {
   name: 'App',
