@@ -4,6 +4,8 @@ import Home from '../components/pages/Home.vue';
 import About from '../components/pages/About.vue';
 import Youtube from '../components/pages/Youtube.vue';
 import Dashboards from '../components/pages/Dashboards.vue';
+import DeveloperDashboard from '../components/pages/DeveloperDashboard.vue';
+
 import NotFound from '../components/pages/NotFound.vue';
 
 Vue.use(VueRouter);
@@ -23,6 +25,11 @@ const routes = [
     path: '/dashboards',
     name: 'Dashboards',
     component: Dashboards,
+  },
+  {
+    path: '/developers',
+    name: 'DeveloperDashboard',
+    component: DeveloperDashboard,
   },
   {
     path: '/youtube',
