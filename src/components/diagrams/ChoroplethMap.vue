@@ -4,6 +4,8 @@
 
 <script>
 import * as d3 from 'd3';
+import d3Tip from 'd3-tip';
+import { geoRobinson } from 'd3-geo-projection';
 
 export default {
   props: ['height'],
@@ -15,12 +17,16 @@ export default {
   },
   methods: {
     renderChart() {
+      const tip = d3Tip()
+        .attr('class', 'd3-tip')
+        .html((d) => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>`
+        + `<strong>Population: </strong><span class='details'>${d.population}</span>`);
+
       const chart = d3.select('svg')
         .attr('height', this.height);
 
       // Map and projection
-      const projection = d3.geoMercator();
-      const pathGenerator = d3.geoPath().projection(projection);
+      const pathGenerator = d3.geoPath().projection(geoRobinson());
 
       // Data and color scale
       const colorScheme = d3.schemeReds[6];
@@ -53,14 +59,16 @@ export default {
           'rgb(3,19,43)',
         ]);
 
+      chart.call(tip);
+
       Promise.all([
         d3.json('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson'),
         d3.tsv('http://localhost:8080/data/contribution.tsv'),
       ]).then(
-        (d) => this.renderMap(chart, pathGenerator, colorScale, d[0], d[1]),
+        (d) => this.renderMap(chart, pathGenerator, colorScale, tip, d[0], d[1]),
       );
     },
-    renderMap(chart, pathGenerator, colorScale, data, population) {
+    renderMap(chart, pathGenerator, colorScale, tip, data, population) {
       const populationById = {};
 
       population.forEach((d) => { populationById[d.id] = +d.population; });
@@ -76,31 +84,21 @@ export default {
         .attr('d', pathGenerator)
         .style('fill', (d) => colorScale(populationById[d.id]))
         .style('stroke', 'white')
+        .style('stroke-width', 1.5)
         .style('opacity', 0.8)
-        .style('stroke-width', 0.3);
-
-      chart.append('path')
-        .attr('d', pathGenerator);
+        // tooltips
+        .style('stroke', 'white')
+        .style('stroke-width', 0.3)
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
     },
   },
 };
 </script>
 <style scoped>
-
 .countries {
     fill: none;
     stroke: #fff;
     stroke-linejoin: round;
-}
-
-.legendThreshold {
-      font-size: 12px;
-      font-family: sans-serif;
-}
-
-.caption {
-      fill: #000;
-      text-anchor: start;
-      font-weight: bold;
 }
 </style>
