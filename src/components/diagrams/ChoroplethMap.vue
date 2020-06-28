@@ -28,11 +28,7 @@ export default {
       // Map and projection
       const pathGenerator = d3.geoPath().projection(geoRobinson());
 
-      // Data and color scale
-      const colorScheme = d3.schemeReds[6];
-      colorScheme.unshift('#eee');
-
-      // eslint-disable-next-line no-unused-vars
+      // TODO: Props domain and range
       const colorScale = d3.scaleThreshold()
         .domain([
           10000,
