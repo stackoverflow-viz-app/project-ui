@@ -1,6 +1,6 @@
 <template>
     <v-container>
-    <v-header>About our Team</v-header>
+    <v-toolbar-title>About our Team</v-toolbar-title>
     <v-divider/>
 
     <div class="card-container">

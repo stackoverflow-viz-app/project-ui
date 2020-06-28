@@ -1,6 +1,6 @@
 <template>
     <v-container>
-      <v-header>Developer Dashboard</v-header>
+      <v-toolbar-title>Developer Dashboard</v-toolbar-title>
       <v-divider/>
     <BarChart
     :data="data"

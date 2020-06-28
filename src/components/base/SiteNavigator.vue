@@ -15,7 +15,7 @@
       <v-list
           dense nav class="py-0">
 
-          <v-list-item :class="miniVariant && 'px-0'">
+          <v-list-item :class="'px-0'">
               <v-list-item-content>
               <v-list-item-title>Menu</v-list-item-title>
               </v-list-item-content>
@@ -38,7 +38,7 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-content>
+    <v-main>
       <v-container fluid>
         <v-row class="fill-height">
           <v-col>
@@ -48,7 +48,7 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-content>
+    </v-main>
     </v-app>
 </template>
 

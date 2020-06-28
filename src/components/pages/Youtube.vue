@@ -1,6 +1,6 @@
 <template>
      <v-container>
-      <v-header>Youtube Video</v-header>
+      <v-toolbar-title>Youtube Video</v-toolbar-title>
       <v-divider/>
        <v-layout
          align-center
