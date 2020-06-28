@@ -1,3 +1,6 @@
+/* eslint-disable consistent-return */
+/* eslint-disable max-len */
+/* eslint-disable no-use-before-define */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../components/pages/Home.vue';
@@ -20,6 +23,9 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: {
+      title: 'Home Page - Example App',
+    },
   },
   {
     path: '/dashboards',

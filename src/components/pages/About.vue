@@ -1,6 +1,6 @@
 <template>
     <v-container>
-    <v-toolbar-title>About our Team</v-toolbar-title>
+    <v-toolbar-title>Our Team</v-toolbar-title>
     <v-divider/>
 
     <div class="card-container">
@@ -31,15 +31,15 @@ export default {
         github: 'https://github.com/nbompetsis',
         linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
       }, {
-        name: 'Nikolas Bompetsis',
-        imageName: 'nbob.jpeg',
-        description: 'Super nerd who loves Vim, Linux/OS X, new per nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new tper nerd who loves Vim, Linux/OS X, new ttechnologies and to be involved in Open-Source projects.',
-        github: 'https://github.com/nbompetsis',
-        linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
+        name: 'Arianna Triantafyllou',
+        imageName: 'ariannatr.jpg',
+        description: "Software engineer with a Bachelor's degree focused in Computer Science, currently doing my master in Data, Information and Knowledge Management. Excited by solving problems, learning new things and facing challenges.",
+        github: 'https://github.com/ariannatr',
+        linkedin: 'https://gr.linkedin.com/in/arianna-triantafyllou',
       }, {
-        name: 'Nikolas Bompetsis',
+        name: 'Omiros Tsintilas',
         imageName: 'nbob.jpeg',
-        description: 'Super nerd who loves Vim, Linux/OS X, new technologies and to be involved ',
+        description: 'Description here',
         github: 'https://github.com/nbompetsis',
         linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
       },
