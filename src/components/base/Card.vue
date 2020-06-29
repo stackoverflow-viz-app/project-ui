@@ -1,7 +1,7 @@
 <template>
     <div class="card-layout">
       <v-card
-        max-width="330"
+        width="330"
         max-height="600"
         class="mx-auto"
       >
