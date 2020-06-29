@@ -38,10 +38,10 @@ export default {
         linkedin: 'https://gr.linkedin.com/in/arianna-triantafyllou',
       }, {
         name: 'Omiros Tsintilas',
-        imageName: 'nbob.jpeg',
-        description: 'Description here',
-        github: 'https://github.com/nbompetsis',
-        linkedin: 'https://linkedin.com/in/nikolas-bompetsis-b883b869',
+        imageName: 'homer.jpg',
+        description: 'Computer Science graduate, software dev in the making!',
+        github: 'https://github.com/homerts95',
+        linkedin: 'https://www.linkedin.com/in/omiros-tsintilas/',
       },
       ],
     };
