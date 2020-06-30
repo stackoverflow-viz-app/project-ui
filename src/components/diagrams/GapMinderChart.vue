@@ -51,21 +51,17 @@ export default {
         .attr('stroke-width', 2)
         .attr('stroke-opacity', 1)
         .attr('fill', (d) => colorScale(d.region))
-        // eslint-disable-next-line no-unused-vars
+        /* eslint-disable */
         .on('mouseover', function (d) {
           d3.select(this)
             .attr('fill', 'yellow')
             .transition()
-            // eslint-disable-next-line no-shadow
             .attr('r', (d) => 1.5 * rScale(+d.population));
         })
-        // eslint-disable-next-line no-unused-vars
         .on('mouseout', function (d) {
           d3.select(this)
-            // eslint-disable-next-line no-shadow
             .attr('fill', (d) => colorScale(d.region))
             .transition()
-            // eslint-disable-next-line no-shadow
             .attr('r', (d) => rScale(+d.population));
         });
 
