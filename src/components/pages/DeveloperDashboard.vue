@@ -9,15 +9,32 @@
     :margin="margin"
     :yTitle="yTitle"
     :xTitle="xTitle"/>
+    <HbarChart
+    :data="data"
+    :height="height"
+    :width="width"
+    :margin="margin"
+    :yTitle="yTitle"
+    :xTitle="xTitle"/>
+    <GapMinderChart
+    :height="height"
+    :width="gminderWidth"
+    :margin="margin"
+    :yTitle="gminderYTitle"
+    :xTitle="gminderXTitle"/>
     </v-container>
 </template>
 
 <script>
 import BarChart from '../diagrams/BarChart.vue';
+import HbarChart from '../diagrams/HbarChart.vue';
+import GapMinderChart from '../diagrams/GapMinderChart.vue';
 
 export default {
   components: {
     BarChart,
+    HbarChart,
+    GapMinderChart,
   },
   data() {
     return {
@@ -33,6 +50,11 @@ export default {
       margin: 60,
       yTitle: 'Test y-axis',
       xTitle: 'Test x-axis',
+      hxTitle: 'Test hx-axis',
+      yxTitle: 'Test hx-axis',
+      gminderWidth: 900,
+      gminderXTitle: 'Test gap-minder x-axis',
+      gminderYTitle: 'Test gap-minder y-axis',
     };
   },
   mounted() {
