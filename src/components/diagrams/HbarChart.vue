@@ -23,13 +23,13 @@ export default {
         .attr('width', this.width);
 
       const yScale = d3.scaleBand()
-        .domain(dataVal.map((dataPoint) => dataPoint.y))
-        .rangeRound([0, chartHeight])
-        .padding(0.2);
+        .range([chartHeight, 0])
+        .domain(dataVal.map((dataPoint) => dataPoint.x))
+        .padding(0.4);
 
       const xScale = d3.scaleLinear()
-        .domain([0, d3.max(dataVal, (d) => d.y) + 50])
-        .range([0, chartWidth]);
+        .range([0, chartWidth])
+        .domain([0, d3.max(dataVal, (d) => d.y) + 50]);
 
       const xAxis = d3.axisBottom()
         .scale(xScale);
@@ -52,7 +52,7 @@ export default {
         .classed('bar', true)
         .attr('width', (data) => xScale(data.y))
         .attr('height', yScale.bandwidth())
-        .attr('y', (data) => yScale(data.y))
+        .attr('y', (data) => yScale(data.x))
         .attr('transform', `translate(${this.margin},0)`)
         .style('fill', 'steelblue')
         .style('opacity', 1);
@@ -64,7 +64,7 @@ export default {
         .attr('y', this.margin / 2.4)
         .attr('transform', 'rotate(-90)')
         .attr('text-anchor', 'middle')
-        .text(this.yTitle);
+        .text(this.hyTitle);
 
       chart
         .append('text')
@@ -72,12 +72,10 @@ export default {
         .attr('x', chartWidth / 2 + this.margin)
         .attr('y', chartHeight + this.margin / 1.7)
         .attr('text-anchor', 'middle')
-        .text(this.xTitle);
+        .text(this.hxTitle);
     },
   },
 };
 </script>
-
-<style>
-
+<style scoped>
 </style>

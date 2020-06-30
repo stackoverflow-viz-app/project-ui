@@ -1,6 +1,3 @@
-developer dashboard
-
-
 <template>
     <v-container>
       <v-toolbar-title>Developer Dashboard</v-toolbar-title>
