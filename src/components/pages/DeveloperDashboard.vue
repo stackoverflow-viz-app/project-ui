@@ -9,15 +9,24 @@
     :margin="margin"
     :yTitle="yTitle"
     :xTitle="xTitle"/>
+    <HbarChart
+    :data="data"
+    :height="height"
+    :width="width"
+    :margin="margin"
+    :hyTitle="yTitle"
+    :hxTitle="xTitle"/>
     </v-container>
 </template>
 
 <script>
 import BarChart from '../diagrams/BarChart.vue';
+import HbarChart from '../diagrams/HbarChart.vue';
 
 export default {
   components: {
     BarChart,
+    HbarChart,
   },
   data() {
     return {
@@ -33,6 +42,8 @@ export default {
       margin: 60,
       yTitle: 'Test y-axis',
       xTitle: 'Test x-axis',
+      hxTitle: 'Test hx-axis',
+      yxTitle: 'Test hx-axis',
     };
   },
   mounted() {
