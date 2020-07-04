@@ -46,7 +46,7 @@ export default {
     },
     readData() {
       Promise.all([
-        d3.json('http://localhost:8080/data/network_graph.json'),
+        d3.json('./data/network_graph.json'),
       ]).then(
         (d) => {
           // eslint-disable-next-line prefer-destructuring
