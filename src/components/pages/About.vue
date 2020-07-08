@@ -36,12 +36,6 @@ export default {
         description: "Software engineer with a Bachelor's degree focused in Computer Science, currently doing my master in Data, Information and Knowledge Management. Excited by solving problems, learning new things and facing challenges.",
         github: 'https://github.com/ariannatr',
         linkedin: 'https://gr.linkedin.com/in/arianna-triantafyllou',
-      }, {
-        name: 'Omiros Tsintilas',
-        imageName: 'homer.jpg',
-        description: 'Computer Science graduate, software dev in the making!',
-        github: 'https://github.com/homerts95',
-        linkedin: 'https://www.linkedin.com/in/omiros-tsintilas/',
       },
       ],
     };
@@ -56,7 +50,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   flex-flow: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10px;
   padding: 5px;
 }

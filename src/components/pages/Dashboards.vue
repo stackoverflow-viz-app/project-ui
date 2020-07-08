@@ -7,6 +7,8 @@
         <v-col
           cols="12"
           lg="3"
+          md="6"
+          sm="6"
         >
           <StatsCard
             color="info"
@@ -19,6 +21,8 @@
         <v-col
           cols="12"
           lg="3"
+          md="6"
+          sm="6"
         >
           <StatsCard
             color="primary"
@@ -31,6 +35,8 @@
         <v-col
           cols="12"
           lg="3"
+          md="6"
+          sm="6"
         >
           <StatsCard
             color="success"
@@ -42,6 +48,8 @@
          <v-col
           cols="12"
           lg="3"
+          md="6"
+          sm="6"
         >
           <StatsCard
             color="warning"
