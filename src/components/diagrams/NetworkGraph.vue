@@ -60,7 +60,7 @@ export default {
       const nodes = data.nodes.map((d) => Object.create(d));
 
       this.simulation = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id((d) => d.id))
+        .force('link', d3.forceLink(links).id((d) => d.name))
         .force('charge', d3.forceManyBody())
         .force('center', d3.forceCenter(this.width / 2, this.height / 2));
 
