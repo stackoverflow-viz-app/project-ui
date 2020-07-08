@@ -51,6 +51,35 @@
           />
         </v-col>
       </v-row>
+      <v-row
+        align="center">
+      <v-col cols="6">
+          <v-autocomplete
+            v-model="values"
+            :items="countries"
+            dense
+            chips
+            small-chips
+            label="Countries"
+            multiple
+            filled
+            solo
+          ></v-autocomplete>
+      </v-col>
+      <v-col cols="6">
+          <v-autocomplete
+            v-model="values"
+            :items="devTypes"
+            dense
+            chips
+            small-chips
+            label="Developer Type"
+            multiple
+            filled
+            solo
+          ></v-autocomplete>
+        </v-col>
+      </v-row>
     </div>
   </div>
 </template>
@@ -63,7 +92,10 @@ export default {
     StatsCard,
   },
   data() {
-    return {};
+    return {
+      countries: ['United States', 'India', 'Germany', 'United Kingdom', 'Canada', 'France', 'Brazil', 'Poland', 'Australia', 'China', 'Greece'],
+      devTypes: ['Developer, back-end', 'Developer, full-stack', 'Database administrator', 'Academic researcher', 'Data or business analyst', 'Designers', 'Developer, front-end', 'Data scientist or machine learning specialist', 'DevOps specialist'],
+    };
   },
   mounted() {
   },
@@ -72,8 +104,5 @@ export default {
 <style scoped>
 .stats-card__container{
   padding-top: 20px;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: row; */
 }
 </style>
