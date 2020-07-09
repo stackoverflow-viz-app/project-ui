@@ -48,6 +48,7 @@
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
+                <NetworkGraph width="700" height="500"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -63,6 +64,7 @@ import Filters from '../base/Filters.vue';
 import RadarChart from '../diagrams/RadarChart.vue';
 import MultiLineChart from '../diagrams/MultiLineChart.vue';
 import GapMinderChart from '../diagrams/GapMinderChart.vue';
+import NetworkGraph from '../diagrams/NetworkGraph.vue';
 
 export default {
   components: {
@@ -71,6 +73,7 @@ export default {
     RadarChart,
     MultiLineChart,
     GapMinderChart,
+    NetworkGraph,
   },
   data() {
     return {
