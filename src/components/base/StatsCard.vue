@@ -12,9 +12,9 @@
           v-text="title"
         />
 
-        <h3 class="display-2 font-weight-light text--primary">
+        <h4 class="display-1 font-weight-light text--primary">
           {{ value }} <small>{{ smallValue }}</small>
-        </h3>
+        </h4>
       </div>
     </template>
 
@@ -27,7 +27,7 @@
 
     <v-icon
       :color="subIconColor"
-      size="16"
+      size="14"
       class="ml-2 mr-1"
     >
       {{ subIcon }}
@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style lang="sass">
+.v-sheet.v-card
+      border-radius: 0px
 .v-card--material-stats
   display: flex
   flex-wrap: wrap
@@ -94,7 +96,6 @@ export default {
   > div:first-child
     justify-content: space-between
   .v-card
-    border-radius: 4px
     flex: 0 1 auto
   .v-card__text
     display: inline-block

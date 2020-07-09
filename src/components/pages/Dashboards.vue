@@ -8,9 +8,9 @@
         >
           <StatsCard
             color="info"
-            icon="mdi-account"
-            title="Respondents"
-            value="~90000"
+            icon="mdi-calendar"
+            title="Reference Period"
+            value="2019-2020"
           />
         </v-col>
 
@@ -20,9 +20,9 @@
         >
           <StatsCard
             color="primary"
-            icon="mdi-poll"
-            title="Something"
-            value="value"
+            icon="mdi-account-group"
+            title="Respondents"
+            value="~90.000"
           />
         </v-col>
 
@@ -33,7 +33,7 @@
           <StatsCard
             color="success"
             icon="mdi-earth"
-            title="Countries"
+            title="Countries Involved"
             value="200"
           />
         </v-col>
@@ -44,38 +44,92 @@
           <StatsCard
             color="warning"
             icon="mdi-poll"
-            title="Something"
-            value="value"
+            title="Professionals' Rate"
+            value="75%"
           />
         </v-col>
       </v-row>
-      <v-row
-        align="center">
-      <v-col cols="6">
-          <v-autocomplete
-            v-model="values"
-            :items="countries"
-            dense
-            chips
-            small-chips
-            label="Countries"
-            multiple
-            filled
-            solo
-          ></v-autocomplete>
-      </v-col>
-      <v-col cols="6">
-          <v-autocomplete
-            v-model="values"
-            :items="devTypes"
-            dense
-            chips
-            small-chips
-            label="Developer Type"
-            multiple
-            filled
-            solo
-          ></v-autocomplete>
+      <v-row>
+      <v-col cols="2">
+        <v-row>
+          <v-col cols="12">
+          <v-card  class="filter-section-card" outlined>
+            <v-card-text class="filter-card-text">
+              <h3>Data Filters</h3>
+              <br/>
+              <span>Segment the Dashboard, using the filters available below.</span>
+               <v-col
+                  cols="12"
+                  class="px-0"
+                >
+                <v-divider />
+                </v-col>
+                <h4>Country</h4>
+                <br/>
+                <v-autocomplete
+                  v-model="values"
+                  :items="countries"
+                  dense
+                  chips
+                  small-chips
+                  label="(All)"
+                  multiple
+                  filled
+                  solo
+                  outlined
+                  class="filter-section-card"
+                ></v-autocomplete>
+               <v-col
+                cols="12"
+                class="px-0"
+              >
+                <v-divider />
+              </v-col>
+              <h4>Developer Type</h4>
+              <br/>
+              <v-autocomplete
+                    v-model="values"
+                    :items="devTypes"
+                    dense
+                    chips
+                    small-chips
+                    label="(All)"
+                    multiple
+                    filled
+                    solo
+                    outlined
+                    class="filter-section-card">
+              </v-autocomplete>
+            </v-card-text>
+          </v-card>
+           </v-col> 
+           </v-row>
+        </v-col>
+        <v-col cols="10">
+          <v-row>
+          <v-col  cols="6">
+            <v-card  class="filter-section-card" outlined>
+              <v-card-text>
+                <h3>Work-life Balance</h3>
+                <RadarChart style="text-align:center" :filterCountry="{}" :filterDeveloperType="{}"/>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col  cols="6">
+            <v-card  class="filter-section-card" outlined>
+            </v-card>
+          </v-col>
+          </v-row>
+          <v-col  cols="6">
+            <v-card  class="filter-section-card" outlined>
+            </v-card>
+          </v-col>
+          <v-col  cols="6">
+            <v-card  class="filter-section-card" outlined>
+            </v-card>
+          </v-col>
+          <v-row>
+          </v-row>
         </v-col>
       </v-row>
     </div>
@@ -84,10 +138,12 @@
 
 <script>
 import StatsCard from '../base/StatsCard.vue';
+import RadarChart from '../diagrams/RadarChart.vue';
 
 export default {
   components: {
     StatsCard,
+    RadarChart
   },
   data() {
     return {
@@ -102,5 +158,14 @@ export default {
 <style scoped>
 .stats-card__container{
   padding-top: 20px;
+}
+
+.filter-section-card{
+  border-radius:0px;
+  color:#333;
+}
+
+.filter-card-text{
+    padding:0.5rem;
 }
 </style>
