@@ -38,8 +38,8 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-main>
-      <v-container fluid>
+    <v-main :style="{background: '#fefefe'}">
+      <v-container fluid >
         <v-row class="fill-height">
           <v-col>
             <transition name="fade">
@@ -84,7 +84,7 @@ export default {
         icon: 'mdi-youtube',
       },
       ],
-      color: 'blue darken-4',
+      color: '#1A1A24',
       drawer: false,
     };
   },
