@@ -22,7 +22,7 @@ export default {
         .attr('height', this.height);
 
       Promise.all([
-        d3.csv('http://localhost:8080/data/gapminder.csv'),
+        d3.csv('./data/gapminder.csv'),
       ]).then(
         (d) => this.renderGapMinder(chart, d[0]),
       );
