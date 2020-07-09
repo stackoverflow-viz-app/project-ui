@@ -1,63 +1,7 @@
 <template>
-    <div class="pa-2">
-    <div class="stats-card__container">
-      <v-row>
-        <v-col
-          cols="12"
-          lg="3"
-          md="6"
-          sm="6"
-        >
-          <StatsCard
-            color="info"
-            icon="mdi-calendar"
-            title="Reference Period"
-            value="2019-2020"
-          />
-        </v-col>
-
-        <v-col
-          cols="12"
-          lg="3"
-          md="6"
-          sm="6"
-        >
-          <StatsCard
-            color="primary"
-            icon="mdi-account-group"
-            title="Respondents"
-            value="~90.000"
-          />
-        </v-col>
-
-        <v-col
-          cols="12"
-          lg="3"
-          md="6"
-          sm="6"
-        >
-          <StatsCard
-            color="success"
-            icon="mdi-earth"
-            title="Countries Involved"
-            value="200"
-          />
-        </v-col>
-         <v-col
-          cols="12"
-          lg="3"
-          md="6"
-          sm="6"
-        >
-          <StatsCard
-            color="warning"
-            icon="mdi-poll"
-            title="Professionals' Rate"
-            value="75%"
-          />
-        </v-col>
-      </v-row>
-      <v-row>
+  <div class="pa-2 stats-card__container">
+    <InfoCards />
+    <v-row>
       <v-col cols="2">
         <v-row>
           <v-col cols="12">
@@ -128,7 +72,6 @@
                 <MultiLineChart style="text-align:center" :filterCountry="{}" :filterDeveloperType="{}"/>
               </v-card-text>
             </v-card>
-            </v-card>
           </v-col>
           </v-row>
           <v-col  cols="6">
@@ -143,18 +86,17 @@
           </v-row>
         </v-col>
       </v-row>
-    </div>
   </div>
 </template>
 
 <script>
-import StatsCard from '../base/StatsCard.vue';
+import InfoCards from '../base/InfoCards.vue';
 import RadarChart from '../diagrams/RadarChart.vue';
 import MultiLineChart from '../diagrams/MultiLineChart.vue';
 
 export default {
   components: {
-    StatsCard,
+    InfoCards,
     RadarChart,
     MultiLineChart,
   },
