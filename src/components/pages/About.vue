@@ -50,7 +50,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   flex-flow: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px;
   padding: 5px;
 }
