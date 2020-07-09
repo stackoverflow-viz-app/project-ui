@@ -4,7 +4,7 @@
     <v-divider/>
 
     <div class="card-container">
-      <Card v-for="item in items"
+      <ProfileCard v-for="item in items"
                 :key="item.title"
                 :name="item.name"
                 :imageName="item.imageName"
@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import Card from '../base/Card.vue';
+import ProfileCard from '../base/ProfileCard.vue';
 
 export default {
   components: {
-    Card,
+    ProfileCard,
   },
   data() {
     return {
@@ -36,12 +36,6 @@ export default {
         description: "Software engineer with a Bachelor's degree focused in Computer Science, currently doing my master in Data, Information and Knowledge Management. Excited by solving problems, learning new things and facing challenges.",
         github: 'https://github.com/ariannatr',
         linkedin: 'https://gr.linkedin.com/in/arianna-triantafyllou',
-      }, {
-        name: 'Omiros Tsintilas',
-        imageName: 'homer.jpg',
-        description: 'Computer Science graduate, software dev in the making!',
-        github: 'https://github.com/homerts95',
-        linkedin: 'https://www.linkedin.com/in/omiros-tsintilas/',
       },
       ],
     };
