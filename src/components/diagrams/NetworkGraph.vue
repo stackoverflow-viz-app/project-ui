@@ -28,16 +28,6 @@ export default {
         .attr('width', this.width)
         .attr('height', this.height);
 
-      // TODO: REMOVE WHEN VIZ IS DONE
-      svg.append('rect')
-        .attr('x', 0)
-        .attr('y', 0)
-        .attr('height', this.height)
-        .attr('width', this.width)
-        .style('stroke', 'black')
-        .style('fill', 'none')
-        .style('stroke-width', 1);
-
       this.container = svg.append('g');
 
       svg.call(d3.zoom()
