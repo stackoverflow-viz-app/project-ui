@@ -1,5 +1,5 @@
 <template>
-  <div id="gapminder_chart"></div>
+  <svg id='gapMinder'></svg>
 </template>
 
 <script>
@@ -16,8 +16,7 @@ export default {
   methods: {
     renderChart() {
       const chart = d3
-        .select('#gapminder_chart')
-        .append('svg')
+        .select('#gapMinder')
         .attr('width', this.width)
         .attr('height', this.height);
 

@@ -38,9 +38,9 @@
               <v-card-text>
                 <h3>Education impact over Developer Type</h3>
                 <GapMinderChart
-                  :height="height"
-                  :width="gminderWidth"
-                  :margin="margin"/>
+                  :height="450"
+                  :width="700"
+                  :margin="0"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -76,9 +76,6 @@ export default {
     return {
       countries: ['United States', 'India', 'Germany', 'United Kingdom', 'Canada', 'France', 'Brazil', 'Poland', 'Australia', 'China', 'Greece'],
       devTypes: ['Developer, back-end', 'Developer, full-stack', 'Database administrator', 'Academic researcher', 'Data or business analyst', 'Designers', 'Developer, front-end', 'Data scientist & ML', 'DevOps specialist'],
-      gminderWidth: 600,
-      height: 500,
-      margin: 60,
     };
   },
   mounted() {
