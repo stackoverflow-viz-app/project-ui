@@ -1,0 +1,3929 @@
+{
+  "nodes": [
+    {
+      "name": "C",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": ".NET",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Bash/Shell/PowerShell",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Hadoop",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "C#",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "C++",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Cordova",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Clojure",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Russian Federation",
+        "Netherlands",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Australia",
+        "Germany",
+        "Spain",
+        "India"
+      ]
+    },
+    {
+      "name": "HTML/CSS",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Chef",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": ".NET Core",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Pandas",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Apache Spark",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Assembly",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Go",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Xamarin",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Russian Federation",
+        "United States",
+        "China",
+        "Brazil",
+        "Italy",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Python",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Unity 3D",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Elixir",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Java",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "SQL",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "CryEngine",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Greece",
+        "Canada",
+        "Russian Federation",
+        "United States",
+        "Italy",
+        "United Kingdom",
+        "France",
+        "Australia",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "name": "React Native",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Puppet",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Dart",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "name": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "China",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "PHP",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "R",
+      "devType": [
+        "Academic researcher",
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Greece",
+        "Canada",
+        "United States",
+        "United Kingdom",
+        "Australia",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Scala",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "Italy",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "Swift",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end"
+      ],
+      "country": [
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "India"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Netherlands",
+        "United States",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Unreal Engine",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Australia",
+        "Germany",
+        "Spain",
+        "India"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "Erlang",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "F#",
+      "devType": [
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "United States",
+        "United Kingdom",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "Objective-C",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "Italy",
+        "United Kingdom",
+        "Australia",
+        "France",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "devType": [
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Developer, front-end"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "name": "Rust",
+      "devType": [
+        "Developer, full-stack",
+        "Developer, back-end"
+      ],
+      "country": [
+        "Russian Federation",
+        "Germany"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "C",
+      "target": ".NET",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Hadoop",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": ".NET",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Australia"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": ".NET",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": ".NET",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Cordova",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Cordova",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Russian Federation",
+        "Netherlands",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Australia",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Ansible",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Hadoop",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Cordova",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": ".NET",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Node.js",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Node.js",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Australia"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": ".NET",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Apache Spark",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "India",
+        "Spain",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "SQL",
+      "target": ".NET",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "CryEngine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Ansible",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Pandas",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Apache Spark",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Cordova",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": ".NET",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Node.js",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Node.js",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Pandas",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Apache Spark",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Flutter",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Italy"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Ansible",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "China"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Ansible",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Chef",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Hadoop",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "React Native",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Flutter",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Greece"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Flutter",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "India",
+        "Greece",
+        "Canada",
+        "Netherlands",
+        "China",
+        "Brazil",
+        "Italy",
+        "France",
+        "Germany"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Russian Federation"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Ansible",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end",
+        "Database administrator"
+      ],
+      "country": [
+        "Canada",
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "Brazil",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Italy"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Chef",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "R",
+      "target": "Apache Spark",
+      "devType": [
+        "Academic researcher",
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Canada",
+        "United States",
+        "Australia",
+        "Germany",
+        "Spain"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "CryEngine",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Italy"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Chef",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Cordova",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "React Native",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Scala",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end",
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Swift",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United Kingdom",
+        "India"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Apache Spark",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Hadoop",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": ".NET",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "React Native",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Unreal Engine",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Ansible",
+      "devType": [
+        "Academic researcher",
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Netherlands",
+        "Russian Federation",
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "India"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Unreal Engine",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Hadoop",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Apache Spark",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Scala",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Italy"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Cordova",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Flutter",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Ansible",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Puppet",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Unreal Engine",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Flutter",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Node.js",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "TensorFlow",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "R",
+      "target": "TensorFlow",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada",
+        "India"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "CryEngine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "CryEngine",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Cordova",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Greece"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Unreal Engine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Unity 3D",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": ".NET",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "CryEngine",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "React Native",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": ".NET",
+      "devType": [
+        "Developer, back-end",
+        "Data scientist or machine learning specialist",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "United Kingdom",
+        "Australia"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Hadoop",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Russian Federation"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "React Native",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Flutter",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Chef",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Chef",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Cordova",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": ".NET",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Russian Federation"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "React Native",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "China"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": ".NET",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": "Apache Spark",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "React Native",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Australia"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": "React Native",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "Unity 3D",
+      "devType": [
+        "Academic researcher",
+        "Developer, full-stack",
+        "Developer, back-end",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "Italy",
+        "Australia",
+        "France",
+        "Germany",
+        "India",
+        "Spain"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "SQL",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Puppet",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": ".NET Core",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Russian Federation"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "Unreal Engine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "CryEngine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "TensorFlow",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "React Native",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Australia"
+      ]
+    },
+    {
+      "source": "Go",
+      "target": ".NET",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Unity 3D",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Apache Spark",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "React Native",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "C",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "React Native",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Unreal Engine",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": "Hadoop",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Chef",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Australia"
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Xamarin",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "China"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": "Apache Spark",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Flutter",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "R",
+      "target": "Hadoop",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Flutter",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "TypeScript",
+      "target": "Node.js",
+      "devType": [
+        "Developer, full-stack",
+        "Developer, back-end"
+      ],
+      "country": [
+        "Russian Federation",
+        "United States",
+        "India"
+      ]
+    },
+    {
+      "source": "TypeScript",
+      "target": ".NET",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "Russian Federation"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Pandas",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "Unreal Engine",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Italy"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "F#",
+      "target": ".NET Core",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "C#",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Puppet",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "Ansible",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Puppet",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Cordova",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "R",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": ".NET",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "TypeScript",
+      "target": "Xamarin",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Puppet",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Erlang",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": ".NET",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "Unity 3D",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Cordova",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Clojure",
+      "target": "TensorFlow",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": ".NET Core",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Chef",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Canada"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Apache Spark",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Pandas",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "Dart",
+      "target": "Chef",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Elixir",
+      "target": ".NET Core",
+      "devType": [
+        "Academic researcher"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Kotlin",
+      "target": "Node.js",
+      "devType": [
+        "Database administrator"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": ".NET",
+      "devType": [
+        "Data scientist or machine learning specialist"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Objective-C",
+      "target": "Cordova",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Puppet",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Spain"
+      ]
+    },
+    {
+      "source": "Swift",
+      "target": "React Native",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "Brazil"
+      ]
+    },
+    {
+      "source": "Scala",
+      "target": "Unity 3D",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "France"
+      ]
+    },
+    {
+      "source": "SQL",
+      "target": "Hadoop",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "source": "Swift",
+      "target": "Cordova",
+      "devType": [
+        "Developer, front-end"
+      ],
+      "country": [
+        "India"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Flutter",
+      "devType": [
+        "Developer, full-stack"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "Flutter",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Netherlands"
+      ]
+    },
+    {
+      "source": "Scala",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end"
+      ],
+      "country": [
+        "Canada"
+      ]
+    }
+  ]
+}
