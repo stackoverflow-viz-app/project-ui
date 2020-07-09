@@ -75,7 +75,6 @@
                 <h4>Country</h4>
                 <br/>
                 <v-autocomplete
-                  v-model="values"
                   :items="countries"
                   dense
                   chips
@@ -96,7 +95,6 @@
               <h4>Developer Type</h4>
               <br/>
               <v-autocomplete
-                    v-model="values"
                     :items="devTypes"
                     dense
                     chips

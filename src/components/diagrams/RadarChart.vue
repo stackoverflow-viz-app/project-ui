@@ -11,7 +11,6 @@ export default {
     return {       
         w: 600,
 			  h: 600,
-			  margin: margin,
 			  maxValue: 5,
 			  levels: 6,
 			  roundStrokes: false,
@@ -21,9 +20,8 @@ export default {
 				unit: '$'
     }
   },
-  data() {
-    return {
-    };
+   data() {
+    return {};
   },
   mounted() {
     this.renderChart('.radar_chart',this.radarChartOptions);
