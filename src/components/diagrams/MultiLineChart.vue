@@ -226,5 +226,21 @@ svg.append("g")
 }
 </script>
 
-<style scoped>
+<style>
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: black;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title-text {
+  font-size: 12px;
+}
 </style>

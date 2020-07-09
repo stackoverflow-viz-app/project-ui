@@ -155,7 +155,8 @@ import MultiLineChart from '../diagrams/MultiLineChart.vue';
 export default {
   components: {
     StatsCard,
-    MultiLineChart
+    RadarChart,
+    MultiLineChart,
   },
   data() {
     return {
