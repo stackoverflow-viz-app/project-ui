@@ -38,8 +38,8 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-main>
-      <v-container fluid :color="'#f0f0f0'">
+    <v-main :style="{background: '#fefefe'}">
+      <v-container fluid >
         <v-row class="fill-height">
           <v-col>
             <transition name="fade">
