@@ -63,7 +63,7 @@ export default {
   data() {
     return {
       items: [{
-        href: 'home',
+        href: '/',
         router: true,
         title: 'Home',
         icon: 'mdi-home',
