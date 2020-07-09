@@ -38,9 +38,7 @@
               <v-card-text>
                 <h3>Education impact over Developer Type</h3>
                 <GapMinderChart
-                  :height="450"
-                  :width="700"
-                  :margin="0"/>
+                  :width="700" :height="450" :margin="20"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -48,7 +46,7 @@
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
-                <NetworkGraph width="700" height="500"/>
+                <NetworkGraph :width="700" :height="450"/>
               </v-card-text>
             </v-card>
           </v-col>
