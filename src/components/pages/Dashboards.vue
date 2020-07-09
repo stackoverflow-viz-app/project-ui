@@ -1,7 +1,5 @@
 <template>
     <div class="pa-2">
-    <v-toolbar-title>Dashboards</v-toolbar-title>
-    <v-divider/>
     <div class="stats-card__container">
       <v-row>
         <v-col
@@ -12,7 +10,7 @@
             color="info"
             icon="mdi-account"
             title="Respondents"
-            value="90000"
+            value="~90000"
           />
         </v-col>
 
