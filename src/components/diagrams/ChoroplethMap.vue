@@ -1,5 +1,5 @@
 <template>
-  <svg></svg>
+  <svg id="map"></svg>
 </template>
 
 <script>
@@ -22,7 +22,7 @@ export default {
         .html((d) => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>`
         + `<strong>Respondents: </strong><span class='details'>${d.respondent}</span>`);
 
-      const chart = d3.select('svg')
+      const chart = d3.select('#map')
         .attr('height', this.height)
         .call(d3.zoom().on('zoom', () => {
           chart.attr('transform', d3.event.transform);
