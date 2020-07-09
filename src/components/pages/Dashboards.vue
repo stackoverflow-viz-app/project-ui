@@ -76,7 +76,7 @@ export default {
   data() {
     return {
       countries: ['United States', 'India', 'Germany', 'United Kingdom', 'Canada', 'France', 'Brazil', 'Poland', 'Australia', 'China', 'Greece'],
-      devTypes: ['Developer, back-end', 'Developer, full-stack', 'Database administrator', 'Academic researcher', 'Data or business analyst', 'Designers', 'Developer, front-end', 'Data scientist & ML', 'DevOps specialist'],
+      devTypes: ['Developer, back-end', 'Developer, full-stack', 'Database administrator', 'Academic researcher', 'Data or business analyst', 'Developer, front-end', 'Data scientist & ML', 'DevOps specialist'],
     };
   },
   mounted() {

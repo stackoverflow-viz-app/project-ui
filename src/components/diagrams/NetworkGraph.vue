@@ -56,7 +56,7 @@ export default {
 
       this.link = svg.append('g').attr('class', 'links')
         .attr('stroke', '#999')
-        .attr('stroke-opacity', 0.6)
+        .attr('stroke-opacity', 0.2)
         .selectAll('line')
         .data(links)
         .enter()
