@@ -125,6 +125,11 @@
           </v-col>
           <v-col  cols="6">
             <v-card  class="filter-section-card" outlined>
+                <v-card-text>
+                <h3>Upward mobility</h3>
+                <MultiLineChart style="text-align:center" :filterCountry="{}" :filterDeveloperType="{}"/>
+              </v-card-text>
+            </v-card>
             </v-card>
           </v-col>
           </v-row>
@@ -147,11 +152,12 @@
 <script>
 import StatsCard from '../base/StatsCard.vue';
 import RadarChart from '../diagrams/RadarChart.vue';
+import MultiLineChart from '../diagrams/MultiLineChart.vue';
 
 export default {
   components: {
     StatsCard,
-    RadarChart
+    MultiLineChart
   },
   data() {
     return {
