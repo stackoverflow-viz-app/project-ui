@@ -69,7 +69,7 @@ export default {
         .append('g');
 
       this.node.append('circle')
-        .attr('r', 5)
+        .attr('r', (d) => 2 * d.size)
         .attr('fill', this.colorScale)
         .call(this.dragMethod(this.simulation));
 
