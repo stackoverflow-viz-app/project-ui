@@ -9,21 +9,25 @@ export default {
   props: ['height', 'width', 'selectedCountries', 'selectedDevTypes'],
   watch: {
     selectedCountries(newArray, oldArray) {
-      console.log("NetworkGraph Countries");
-      console.log(`New values ${newArray}`);
+      const countries = newArray;
+      const devTypes = this.selectedDevTypes;
+      this.renderGraphNewValues(countries, devTypes);
     },
     selectedDevTypes(newArray, oldArray) {
-      console.log("NetworkGraph DevTypes");
-      console.log(`New values ${newArray}`);
+      const countries = this.selectedCountries;
+      const devTypes = newArray;
+      this.renderGraphNewValues(countries, devTypes);
     },
   },
   data() {
     return {
-      immutableData: [],
+      immutableNodes: [],
+      immutableLinks: [],
       simulation: null,
       node: null,
       link: null,
       container: null,
+      svg: null,
       color: d3.scaleOrdinal(d3.schemeCategory10),
     };
   },
@@ -33,14 +37,14 @@ export default {
   },
   methods: {
     initGraph() {
-      const svg = d3
+      this.svg = d3
         .select('#graph')
         .attr('width', this.width)
         .attr('height', this.height);
 
-      this.container = svg.append('g');
+      this.container = this.svg.append('g');
 
-      svg.call(d3.zoom()
+      this.svg.call(d3.zoom()
         .scaleExtent([0.1, 4])
         .on('zoom', () => { this.container.attr('transform', d3.event.transform); }));
     },
@@ -50,7 +54,10 @@ export default {
       ]).then(
         (d) => {
           // eslint-disable-next-line prefer-destructuring
-          this.immutableData = d[0];
+          // eslint-disable-next-line no-shadow
+          this.immutableNodes = d[0].nodes.map((d) => Object.create(d));
+          // eslint-disable-next-line no-shadow
+          this.immutableLinks = d[0].links.map((d) => Object.create(d));
           this.renderGraph(this.container, d[0]);
         },
       );
@@ -135,6 +142,18 @@ export default {
     },
     colorScale(d) {
       return this.color(d.group);
+    },
+    renderGraphNewValues(countries, devTypes) {
+      const nodes = this.immutableNodes
+        .filter((item) => countries.every((c) => item.country.includes(c)))
+        .filter((item) => devTypes.every((dev) => item.devType.includes(dev)));
+      const links = this.immutableLinks
+        .filter((item) => countries.every((c) => item.country.includes(c)))
+        .filter((item) => devTypes.every((dev) => item.devType.includes(dev)));
+      const finalObj = { nodes, links };
+      this.link.remove();
+      this.node.remove();
+      this.renderGraph(this.container, finalObj);
     },
   },
 };

@@ -596,7 +596,8 @@
       "devType": [
         "Developer, back-end",
         "Developer, full-stack",
-        "Developer, front-end"
+        "Developer, front-end",
+        "Academic researcher"
       ],
       "country": [
         "United States",
@@ -686,6 +687,7 @@
     {
       "name": "React.js",
       "devType": [
+        "Academic researcher",
         "Developer, front-end"
       ],
       "country": [
@@ -706,7 +708,8 @@
     {
       "name": "Angular",
       "devType": [
-        "Developer, front-end"
+        "Developer, front-end",
+        "Academic researcher"
       ],
       "country": [
         "United States",
@@ -727,7 +730,7 @@
       "name": "TypeScript",
       "devType": [
         "Developer, front-end",
-        "India"
+        "Academic researcher"
       ],
       "country": [
         "United States",
@@ -1106,9 +1109,7 @@
       "devType": [
         "Developer, full-stack",
         "Academic researcher",
-        "Data or business analyst",
-        "Data scientist & ML",
-        "DevOps specialist"
+        "Data scientist & ML"
       ],
       "country": [
         "United States",
@@ -1120,8 +1121,7 @@
         "Brazil", 
         "Poland",
         "Australia",
-        "China",
-        "Greece"
+        "China"
       ]
     },
     {
@@ -1130,9 +1130,7 @@
       "devType": [
         "Developer, full-stack",
         "Academic researcher",
-        "Data or business analyst",
-        "Data scientist & ML",
-        "DevOps specialist"
+        "Data scientist & ML"
       ],
       "country": [
         "United States",
@@ -1417,8 +1415,7 @@
       "target": "SQL",
       "devType": [
         "Developer, back-end",
-        "Developer, full-stack",
-        "Developer, front-end"
+        "Developer, full-stack"
       ],
       "country": [
         "United States",
@@ -1543,11 +1540,8 @@
       "devType": [
         "Developer, back-end",
         "Developer, full-stack",
-        "Database administrator",
         "Academic researcher",
-        "Data or business analyst",
-        "Developer, front-end",
-        "DevOps specialist"
+        "Developer, front-end"
       ],
       "country": [
         "United States",
@@ -1570,7 +1564,6 @@
         "Developer, back-end",
         "Developer, full-stack",
         "Database administrator",
-        "Academic researcher",
         "Data or business analyst",
         "DevOps specialist"
       ],
