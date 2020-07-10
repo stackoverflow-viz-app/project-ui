@@ -6,9 +6,19 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['filterCountry', 'filterDeveloperType'],			
+  props: ['selectedCountries', 'selectedDevTypes'],
+  watch: {
+    selectedCountries(newArray, oldArray) {
+      console.log("RadarChart Countries");
+      console.log(`New values ${newArray}`);
+    },
+    selectedDevTypes(newArray, oldArray) {
+      console.log("RadarChart DevTypes");
+      console.log(`New values ${newArray}`);
+    },
+  },
   radarChartOptions() {
-    return {       
+    return {
         w: 600,
 			  h: 600,
 			  maxValue: 5,
@@ -100,8 +110,8 @@ export default {
         unit: '',
         legend: true
 	};
- 
-  
+
+
   	if('undefined' !== typeof options){
 	  for(var i in options){
 		if('undefined' !== typeof options[i]){ cfg[i] = options[i]; }

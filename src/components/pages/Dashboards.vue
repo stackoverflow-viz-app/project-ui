@@ -5,7 +5,8 @@
       <v-col cols="2">
         <v-row>
           <v-col cols="12">
-            <Filters :countries="countries" :devTypes="devTypes" />
+            <Filters :countries="countries" :devTypes="devTypes"
+               :selectedCountries.sync="selectedCountries" :selectedDevTypes.sync="selectedDevTypes"/>
           </v-col>
         </v-row>
       </v-col>
@@ -16,8 +17,7 @@
               <v-card-text>
                 <h3>Work-life Balance</h3>
                 <RadarChart style="text-align:center"
-                :filterCountry="{}"
-                :filterDeveloperType="{}"/>
+                  :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -26,8 +26,7 @@
                 <v-card-text>
                 <h3>Upward mobility</h3>
                 <MultiLineChart style="text-align:center"
-                :filterCountry="{}"
-                :filterDeveloperType="{}" />
+                  :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -38,7 +37,8 @@
               <v-card-text>
                 <h3>Education impact over Developer Type</h3>
                 <GapMinderChart
-                  :width="700" :height="450" :margin="20"/>
+                  :width="700" :height="450" :margin="20"
+                  :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -46,7 +46,8 @@
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
-                <NetworkGraph :width="700" :height="450"/>
+                <NetworkGraph :width="700" :height="450"
+                  :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
           </v-col>
@@ -77,6 +78,8 @@ export default {
     return {
       countries: ['United States', 'India', 'Germany', 'United Kingdom', 'Canada', 'France', 'Brazil', 'Poland', 'Australia', 'China', 'Greece'],
       devTypes: ['Developer, back-end', 'Developer, full-stack', 'Database administrator', 'Academic researcher', 'Data or business analyst', 'Developer, front-end', 'Data scientist & ML', 'DevOps specialist'],
+      selectedCountries: [],
+      selectedDevTypes: [],
     };
   },
   mounted() {

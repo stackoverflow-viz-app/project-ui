@@ -12,6 +12,7 @@
         <br />
         <v-autocomplete
           :items="countries"
+          v-model="syncCountries"
           dense
           chips
           small-chips
@@ -29,6 +30,7 @@
         <br />
         <v-autocomplete
           :items="devTypes"
+          v-model="syncDevTypes"
           dense
           chips
           small-chips
@@ -46,7 +48,25 @@
 
 <script>
 export default {
-  props: ['countries', 'devTypes'],
+  props: ['countries', 'devTypes', 'selectedCountries', 'selectedDevTypes'],
+  computed:{
+    syncCountries: {
+      get() {
+        return this.selectedCountries;
+      },
+      set(value) {
+        this.$emit('update:selectedCountries', value);
+      },
+    },
+    syncDevTypes: {
+      get() {
+        return this.selectedDevTypes;
+      },
+      set(value) {
+        this.$emit('update:selectedDevTypes', value);
+      },
+    },
+  },
   data() {
     return {
     };

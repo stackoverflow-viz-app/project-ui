@@ -6,7 +6,17 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['height', 'width'],
+  props: ['height', 'width', 'selectedCountries', 'selectedDevTypes'],
+  watch: {
+    selectedCountries(newArray, oldArray) {
+      console.log("NetworkGraph Countries");
+      console.log(`New values ${newArray}`);
+    },
+    selectedDevTypes(newArray, oldArray) {
+      console.log("NetworkGraph DevTypes");
+      console.log(`New values ${newArray}`);
+    },
+  },
   data() {
     return {
       immutableData: [],
