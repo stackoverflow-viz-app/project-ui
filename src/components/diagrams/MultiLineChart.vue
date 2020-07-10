@@ -6,7 +6,17 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['filterCountry', 'filterDeveloperType'],			
+  props: ['selectedCountries', 'selectedDevTypes'],
+  watch: {
+    selectedCountries(newArray, oldArray) {
+      console.log("MultiLineChart Countries");
+      console.log(`New values ${newArray}`);
+    },
+    selectedDevTypes(newArray, oldArray) {
+      console.log("MultiLineChart DevTypes");
+      console.log(`New values ${newArray}`);
+    },
+  },
   data() {
     return {
     };
@@ -83,10 +93,10 @@ var circleRadiusHover = 6;
 
 /* Format Data */
 var parseDate = d3.timeParse("%Y");
-data.forEach(function(d) { 
+data.forEach(function(d) {
   d.values.forEach(function(d) {
     d.date = parseDate(d.date);
-    d.price = +d.price;    
+    d.price = +d.price;
   });
 });
 
@@ -121,11 +131,11 @@ let lines = svg.append('g')
 lines.selectAll('.line-group')
   .data(data).enter()
   .append('g')
-  .attr('class', 'line-group')  
+  .attr('class', 'line-group')
   .on("mouseover", function(d, i) {
       svg.append("text")
         .attr("class", "title-text")
-        .style("fill", color(i))        
+        .style("fill", color(i))
         .text(d.name)
         .attr("text-anchor", "middle")
         .attr("x", (width-margin)/2)
@@ -135,7 +145,7 @@ lines.selectAll('.line-group')
       svg.select(".title-text").remove();
     })
   .append('path')
-  .attr('class', 'line')  
+  .attr('class', 'line')
   .attr('d', d => line(d.values))
   .style('stroke', (d, i) => color(i))
   .style('opacity', lineOpacity)
@@ -168,9 +178,9 @@ lines.selectAll("circle-group")
   .selectAll("circle")
   .data(d => d.values).enter()
   .append("g")
-  .attr("class", "circle")  
+  .attr("class", "circle")
   .on("mouseover", function(d) {
-      d3.select(this)     
+      d3.select(this)
         .style("cursor", "pointer")
         .append("text")
         .attr("class", "text")
@@ -180,7 +190,7 @@ lines.selectAll("circle-group")
     })
   .on("mouseout", function(d) {
       d3.select(this)
-        .style("cursor", "none")  
+        .style("cursor", "none")
         .transition()
         .duration(duration)
         .selectAll(".text").remove();
@@ -197,10 +207,10 @@ lines.selectAll("circle-group")
           .attr("r", circleRadiusHover);
       })
     .on("mouseout", function(d) {
-        d3.select(this) 
+        d3.select(this)
           .transition()
           .duration(duration)
-          .attr("r", circleRadius);  
+          .attr("r", circleRadius);
       });
 
 

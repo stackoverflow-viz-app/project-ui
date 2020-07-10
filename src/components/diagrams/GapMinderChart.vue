@@ -6,7 +6,18 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['height', 'width', 'margin', 'x-title', 'y-title'],
+  props: ['height', 'width', 'margin', 'x-title', 'y-title',
+    'selectedCountries', 'selectedDevTypes'],
+  watch: {
+    selectedCountries(newArray, oldArray) {
+      console.log("GapMinder Countries");
+      console.log(`New values ${newArray}`);
+    },
+    selectedDevTypes(newArray, oldArray) {
+      console.log("GapMinder DevTypes");
+      console.log(`New values ${newArray}`);
+    },
+  },
   data() {
     return {};
   },
