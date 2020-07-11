@@ -6,7 +6,7 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['height', 'width', 'selectedCountries', 'selectedDevTypes'],
+  props: ['height', 'selectedCountries', 'selectedDevTypes'],
   watch: {
     selectedCountries(newArray, oldArray) {
       const countries = newArray;
@@ -39,7 +39,7 @@ export default {
     initGraph() {
       this.svg = d3
         .select('#graph')
-        .attr('width', this.width)
+        .attr('width', '100%')
         .attr('height', this.height);
 
       this.container = this.svg.append('g');
@@ -69,7 +69,7 @@ export default {
       this.simulation = d3.forceSimulation(nodes)
         .force('link', d3.forceLink(links).id((d) => d.name))
         .force('charge', d3.forceManyBody())
-        .force('center', d3.forceCenter(this.width / 2, this.height / 2));
+        .force('center', d3.forceCenter(this.getWidth() / 2, this.height / 2));
 
       this.link = svg.append('g').attr('class', 'links')
         .attr('stroke', '#999')
@@ -142,6 +142,11 @@ export default {
     },
     colorScale(d) {
       return this.color(d.group);
+    },
+    getWidth() {
+      return d3.select('#graph')
+        .style('width')
+        .slice(0, -2);
     },
     renderGraphNewValues(countries, devTypes) {
       const nodes = this.immutableNodes
