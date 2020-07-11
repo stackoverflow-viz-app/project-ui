@@ -45,8 +45,13 @@ export default {
 }
 
 .paragraph {
-   text-align: justify;
-   padding-right: 24px;
+  text-align: justify;
+  padding-right: 24px;
 }
 
+@media (min-width: 1904px) {
+.container {
+    max-width: 1185px;
+  }
+}
 </style>
