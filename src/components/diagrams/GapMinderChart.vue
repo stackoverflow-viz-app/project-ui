@@ -75,6 +75,23 @@ export default {
       this.svg.append('g')
         .attr('transform', 'translate(0,400)')
         .call(bottomAxis);
+
+      this.svg.append('text')
+        .attr('class', 'label')
+        .text(this.yTitle)
+        .attr('font-size', 10)
+        .attr('font-family', 'sans-serif')
+        .attr('x', -(this.width) / 3)
+        .attr('y', 2 * this.margin)
+        .attr('transform', 'rotate(-90)');
+
+      this.svg.append('text')
+        .attr('class', 'label')
+        .text(this.xTitle)
+        .attr('font-size', 10)
+        .attr('font-family', 'sans-serif')
+        .attr('x', this.width / 2 + this.margin)
+        .attr('y', this.height - this.margin);
     },
     readData() {
       Promise.all([
@@ -103,23 +120,6 @@ export default {
         .attr('fill', (d) => this.colorScale(d.devType))
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
-
-      svg.append('text')
-        .attr('class', 'label')
-        .text(this.yTitle)
-        .attr('font-size', 10)
-        .attr('font-family', 'sans-serif')
-        .attr('x', -(this.width) / 3)
-        .attr('y', 2 * this.margin)
-        .attr('transform', 'rotate(-90)');
-
-      svg.append('text')
-        .attr('class', 'label')
-        .text(this.xTitle)
-        .attr('font-size', 10)
-        .attr('font-family', 'sans-serif')
-        .attr('x', this.width / 2 + this.margin)
-        .attr('y', this.height - this.margin);
     },
     renderGraphNewValues(countries, devTypes) {
       let newValues = this.immutableData;
