@@ -93,9 +93,9 @@ export default {
 					]
         } 	];
     const cfg = {
-        w: 250,				//Width of the circle
-        h: 250,				//Height of the circle
-        margin: {top: 50, right: 50, bottom: 50, left: 60}, //The margins of the SVG
+        w: 350,				//Width of the circle
+        h: 350,				//Height of the circle
+        margin: {top: 50, right: 50, bottom: 50, left: 80}, //The margins of the SVG
         levels: 5,				//How many levels or inner circles should there be drawn
         maxValue: 5, 			//What is the value that the biggest circle will represent
         labelFactor: 1.25, 	//How much farther than the radius of the outer circle should the labels be placed

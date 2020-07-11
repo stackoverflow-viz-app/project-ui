@@ -42,8 +42,8 @@ export default {
       );
     },
     renderChart(parent_selector, data,countries, devTypes) {
-      var width = 500;
-      var height = 300;
+      var width = 700;
+      var height = 400;
       var margin = 50;
       var duration = 250;
 
