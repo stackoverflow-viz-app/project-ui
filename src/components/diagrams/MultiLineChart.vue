@@ -63,8 +63,6 @@ export default {
           d.Salary = +d.Salary;
           d.DevType = d.DevType;
       });
-
-      console.log('hey',countries,devTypes);
       
       /* Filter Data */
       if(countries.length > 0)
@@ -127,7 +125,7 @@ export default {
         .rollup(function(v) { 
           return {
               Count: d3.sum(v, function(d) { return d.Count; }),
-              Salary: d3.mean(v, function(d) { return d.Salary; }),
+              Salary: d3.sum(v, function(d) { return d.Salary*d.Count; })/d3.sum(v, function(d) { return d.Count; }),
           };
         })
         .entries(data)
@@ -137,9 +135,6 @@ export default {
               values: secondMap(d.values)
             };
         });
-            
-      console.log(nestedData);
-
 
         lines.selectAll('.line-group')
         .data(nestedData).enter()

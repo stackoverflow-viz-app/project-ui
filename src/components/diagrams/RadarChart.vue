@@ -9,35 +9,52 @@ export default {
   props: ['selectedCountries', 'selectedDevTypes'],
   watch: {
     selectedCountries(newArray, oldArray) {
-      console.log("RadarChart Countries");
-      console.log(`New values ${newArray}`);
+      const countries = newArray;
+      const devTypes = this.selectedDevTypes;
+      this.renderChart('.radar_chart', this.dataset,this.radarChartOptions,countries, devTypes);
     },
     selectedDevTypes(newArray, oldArray) {
-      console.log("RadarChart DevTypes");
-      console.log(`New values ${newArray}`);
+      const countries = this.selectedCountries;
+      const devTypes = newArray;
+      this.renderChart('.radar_chart', this.dataset,this.radarChartOptions,countries, devTypes);
     },
   },
   radarChartOptions() {
     return {
-        w: 600,
-			  h: 600,
-			  maxValue: 5,
-			  levels: 6,
-			  roundStrokes: false,
-			  color: d3.scaleOrdinal().range(["#AFC52F", "#ff6600"]),
-				format: '.0f',
-				legend: { title: 'Developer Type', translateX: 100, translateY: 40 },
-				unit: '$'
+        w: 700,
+		h: 700,
+		maxValue: 5,
+		levels: 5,
+		roundStrokes: false,
+		color: d3.scaleOrdinal().range(["#AFC52F", "#ff6600"]),
+		format: '.0f',
+		legend: { title: 'Developer Types', translateX: 100, translateY: 40 },
+		unit: 'n'
     }
   },
    data() {
-    return {};
+    return {
+	  container: null,
+      svg: null,
+      color: d3.scaleOrdinal(d3.schemeCategory10),
+      dataset: null
+	};
   },
   mounted() {
-    this.renderChart('.radar_chart',this.radarChartOptions);
+    this.readData();
   },
   methods: {
-    renderChart(parent_selector, options) {
+    readData() {
+      Promise.all([
+        d3.csv('./data/worklife_balance.csv'),
+      ]).then(
+        (d) => {
+          this.dataset = d[0];
+          this.renderChart('.radar_chart', d[0],this.radarChartOptions,[],[]);
+        },
+      );
+    },
+    renderChart(parent_selector, data, options,countries, devTypes) {
       const max = Math.max;
       const sin = Math.sin;
       const cos = Math.cos;
@@ -67,35 +84,67 @@ export default {
             }
 	      });
       };//wrap
-      const margin = {top: 10, right: 10, bottom: 10, left: 10},
-				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
-				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+      const margin = {top: 10, right: 0, bottom: 10, left: 0},
+			width = window.innerWidth - margin.left - margin.right,
+			height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
       const color = d3.scaleBand()
 				.range(["#EDC951","#CC333F","#00A0B0"]);
-      const data =[
 
-        { name: 'iPhone',
-					axes: [
-            {axis:"Remote Working",value:5},
-						{axis:"Salary",value:4},
-						{axis:"Working Hours",value:3},
-						{axis:"Career Satisfaction",value:2},
-						{axis:"Job Satisfaction",value:1},
-					]
-				},
-				{ name: 'Samsung',
-					axes: [
-            {axis:"Remote Working",value:5},
-						{axis:"Salary",value:4},
-						{axis:"Working Hours",value:3},
-						{axis:"Career Satisfaction",value:1},
-						{axis:"Job Satisfaction",value:2},
-					]
-        } 	];
+	   /* Filter Data */
+      if(countries.length > 0)
+        data = data.filter(function(d) { if(countries.includes(d.Country)) return d;});
+      if(devTypes.length > 0)
+        data = data.filter(function(d) { if(devTypes.includes(d.DevType)) return d;});
+	  console.log(countries,countries)
+
+	let secondMap = (items)=>{
+		console.log(items)
+        //keyorder = 
+        let result = []
+		result = [
+			{axis:"Remote Working",value: items.WorkRemote},
+			{axis:"Working Hours",value:items.WorkWeekHrs},
+			{axis:"Career Satisfaction",value:items.CareerSat},
+			{axis:"Job Satisfaction",value:items.JobSat}
+		]
+        return result;
+      }
+
+	  
+	   /* Format Data */
+      data.forEach(function(d) {
+          d.WorkRemote = +d.WorkRemote;
+          d.WorkWeekHrs = +d.WorkWeekHrs;
+          d.JobSat = +d.JobSat;
+		  d.CareerSat = +d.CareerSat;
+		  d.Count = +d.Count;
+      });
+
+	  console.log(data.length);
+      
+      let nestedData = d3.nest()
+        .key(function(d) {return d.DevType;})
+        .rollup(function(v) { 
+          return {
+			Count: d3.sum(v, function(d) { return d.Count; }),
+			WorkRemote: d3.sum(v, function(d) { return d.WorkRemote*d.Count; })/d3.sum(v, function(d) { return d.Count; }),
+			WorkWeekHrs: d3.sum(v, function(d) { return d.WorkWeekHrs*d.Count; })/d3.sum(v, function(d) { return d.Count; }),
+			JobSat: d3.sum(v, function(d) { return d.JobSat*d.Count; })/d3.sum(v, function(d) { return d.Count; }),
+			CareerSat: d3.sum(v, function(d) { return d.CareerSat*d.Count; })/d3.sum(v, function(d) { return d.Count; }),
+          };
+        })
+        .entries(data)
+        .map(function(d) {
+            return {
+              name: d.key,
+              axes: secondMap(d.value)
+            };
+        });
+	
     const cfg = {
         w: 350,				//Width of the circle
         h: 350,				//Height of the circle
-        margin: {top: 50, right: 50, bottom: 50, left: 80}, //The margins of the SVG
+        margin: {top: 50, right: 200, bottom: 50, left: 200}, //The margins of the SVG
         levels: 5,				//How many levels or inner circles should there be drawn
         maxValue: 5, 			//What is the value that the biggest circle will represent
         labelFactor: 1.25, 	//How much farther than the radius of the outer circle should the labels be placed
@@ -108,7 +157,7 @@ export default {
         color: d3.scaleOrdinal(d3.schemeCategory10),	//Color function,
         format: '.2%',
         unit: '',
-        legend: true
+        legend: { title: 'Developer Types', translateX: 300, translateY: 10 }
 	};
 
 
@@ -121,17 +170,17 @@ export default {
 	//If the supplied maxValue is smaller than the actual one, replace by the max in the data
 	// var maxValue = max(cfg.maxValue, d3.max(data, function(i){return d3.max(i.map(function(o){return o.value;}))}));
 	let maxValue = 0;
-	for (let j=0; j < data.length; j++) {
-		for (let i = 0; i < data[j].axes.length; i++) {
-			data[j].axes[i]['id'] = data[j].name;
-			if (data[j].axes[i]['value'] > maxValue) {
-				maxValue = data[j].axes[i]['value'];
+	for (let j=0; j < nestedData.length; j++) {
+		for (let i = 0; i < nestedData[j].axes.length; i++) {
+			nestedData[j].axes[i]['id'] = nestedData[j].name;
+			if (nestedData[j].axes[i]['value'] > maxValue) {
+				maxValue = nestedData[j].axes[i]['value'];
 			}
 		}
 	}
 	maxValue = max(cfg.maxValue, maxValue);
 
-	const allAxis = data[0].axes.map((i, j) => i.axis),	//Names of each axis
+	const allAxis = nestedData[0].axes.map((i, j) => i.axis),	//Names of each axis
 		total = allAxis.length,					//The number of different axes
 		radius = Math.min(cfg.w/2, cfg.h/2), 	//Radius of the outermost circle
 		Format = d3.format(cfg.format),			 	//Formatting
@@ -155,10 +204,18 @@ export default {
 			.attr("width",  cfg.w + cfg.margin.left + cfg.margin.right)
 			.attr("height", cfg.h + cfg.margin.top + cfg.margin.bottom)
 			.attr("class", "radar");
+	
+	
 
 	//Append a g element
 	let g = svg.append("g")
 			.attr("transform", "translate(" + (cfg.w/2 + cfg.margin.left) + "," + (cfg.h/2 + cfg.margin.top) + ")");
+
+	this.container = g;
+
+	svg.call(d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', () => { this.container.attr('transform', d3.event.transform); }));
 
 	/////////////////////////////////////////////////////////
 	////////// Glow filter for some extra pizzazz ///////////
@@ -200,7 +257,7 @@ export default {
 	   .attr("dy", "0.4em")
 	   .style("font-size", "10px")
 	   .attr("fill", "#737373")
-	   .text(d => Format(maxValue * d / cfg.levels) + cfg.unit);
+	   .text(d => Format(1-(maxValue - d) / maxValue));
 
 	/////////////////////////////////////////////////////////
 	//////////////////// Draw the axes //////////////////////
@@ -249,7 +306,7 @@ export default {
 
 	//Create a wrapper for the blobs
 	const blobWrapper = g.selectAll(".radarWrapper")
-		.data(data)
+		.data(nestedData)
 		.enter().append("g")
 		.attr("class", "radarWrapper");
 
@@ -268,7 +325,7 @@ export default {
 			//Bring back the hovered over blob
 			d3.select(this)
 				.transition().duration(200)
-				.style("fill-opacity", 0.7);
+				.style("fill-opacity", 0.3);
 		})
 		.on('mouseout', () => {
 			//Bring back all blobs
@@ -296,7 +353,7 @@ export default {
 		.attr("cx", (d,i) => rScale(d.value) * cos(angleSlice * i - HALF_PI))
 		.attr("cy", (d,i) => rScale(d.value) * sin(angleSlice * i - HALF_PI))
 		.style("fill", (d) => cfg.color(d.id))
-		.style("fill-opacity", 0.8);
+		.style("fill-opacity", 1);
 
 	/////////////////////////////////////////////////////////
 	//////// Append invisible circles for tooltip ///////////
@@ -304,7 +361,7 @@ export default {
 
 	//Wrapper for the invisible circles on top
 	const blobCircleWrapper = g.selectAll(".radarCircleWrapper")
-		.data(data)
+		.data(nestedData)
 		.enter().append("g")
 		.attr("class", "radarCircleWrapper");
 
@@ -324,7 +381,7 @@ export default {
 				.attr('y', this.cy.baseVal.value - 10)
 				.transition()
 				.style('display', 'block')
-				.text(Format(d.value) + cfg.unit);
+				.text(Format(1-(maxValue - d.value) / maxValue));
 		})
 		.on("mouseout", function(){
 			tooltip.transition()
@@ -342,7 +399,7 @@ export default {
 
 	if (cfg.legend !== false && typeof cfg.legend === "object") {
 		let legendZone = svg.append('g');
-		let names = data.map(el => el.name);
+		let names = nestedData.map(el => el.name);
 		if (cfg.legend.title) {
 			let title = legendZone.append("text")
 				.attr("class", "title")
@@ -378,6 +435,8 @@ export default {
 		  .attr("font-size", "11px")
 		  .attr("fill", "#737373")
 		  .text(d => d);
+
+		  console.log('names:',names);
 	}
   return svg;
     },

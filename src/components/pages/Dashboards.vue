@@ -42,7 +42,8 @@
             <v-card class="filter-section-card" outlined>
               <v-card-text>
                  <h3>Work-life Balance</h3>
-                <RadarChart style="text-align:center"/>
+                <RadarChart style="text-align:center"
+                :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
 
               </v-card-text>
             </v-card>
