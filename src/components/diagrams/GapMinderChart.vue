@@ -7,7 +7,7 @@ import * as d3 from 'd3';
 import d3Tip from 'd3-tip';
 
 export default {
-  props: ['height', 'width', 'margin', 'x-title', 'y-title',
+  props: ['height', 'margin', 'x-title', 'y-title',
     'selectedCountries', 'selectedDevTypes'],
   watch: {
     selectedCountries(newArray, oldArray) {
@@ -41,22 +41,21 @@ export default {
     initGraph() {
       this.tip = d3Tip()
         .attr('class', 'd3-tip')
-        .html((d) => `<strong>Country: </strong><span class='details'>${d.country}<br></span>`
-                  + `<strong>Type: </strong><span class='details'>${d.devType}<br></span>`
+        .html((d) => `<strong>Type: </strong><span class='details'>${d.devType}<br></span>`
                   + `<strong>Mean Ed. Level: </strong><span class='details'>${d.levelEd}<br></span>`
                   + `<strong>Mean Salary: </strong><span class='details'>${d.salary}<br></span>`
                   + `<strong>Size: </strong><span class='details'>${d.size}<br></span>`);
 
       this.svg = d3
         .select('#gapMinder')
-        .attr('width', this.width)
+        .attr('width', '100%')
         .attr('height', this.height);
 
       this.svg.call(this.tip);
 
       this.xScale = d3.scaleLinear()
-        .domain([0, 4.5])
-        .range([100, 680]);
+        .domain([1.5, 4])
+        .range([100, 700]);
       this.yScale = d3.scaleLinear()
         .domain([10000, 300000])
         .range([400, 30]);
@@ -81,7 +80,7 @@ export default {
         .text(this.yTitle)
         .attr('font-size', 10)
         .attr('font-family', 'sans-serif')
-        .attr('x', -(this.width) / 3)
+        .attr('x', -(this.getWidth()) / 3)
         .attr('y', 2 * this.margin)
         .attr('transform', 'rotate(-90)');
 
@@ -90,7 +89,7 @@ export default {
         .text(this.xTitle)
         .attr('font-size', 10)
         .attr('font-family', 'sans-serif')
-        .attr('x', this.width / 2.3 - (2 * this.margin))
+        .attr('x', this.getWidth() / 2.3 - (2 * this.margin))
         .attr('y', this.height - this.margin);
     },
     readData() {
@@ -105,9 +104,47 @@ export default {
       );
     },
     renderGraph(svg, tip, dataWeLoaded) {
+      /* Format Data */
+      // dataWeLoaded.forEach((d) => {
+
+      const dataStructure = (items) => {
+        // keyorder =
+        const result = [];
+        items.forEach((element) => {
+          result.push({
+            levelEd: element.value.levelEd,
+            salary: element.value.salary,
+            size: element.value.size,
+          });
+        });
+        return result;
+      };
+
+      const nestedData = d3.nest()
+        .key((d) => d.devType)
+        .key((d) => d.country)
+        .sortKeys(d3.ascending)
+        .rollup((v) => ({
+          levelEd: d3.mean(v, (d) => d.levelEd),
+          salary: d3.mean(v, (d) => d.salary),
+          size: d3.sum(v, (d) => d.size),
+        }))
+        .entries(dataWeLoaded)
+        .map((d) => ({
+          key: d.key,
+          values: dataStructure(d.values),
+        }));
+
+      const finalData = nestedData.map((d) => ({
+        devType: d.key,
+        salary: d3.mean(d.values, (sal) => sal.salary),
+        levelEd: d3.mean(d.values, (ed) => ed.levelEd),
+        size: d3.sum(d.values, (siz) => siz.size),
+      }));
+
       this.rScale.domain([0, d3.max(dataWeLoaded, (d) => +d.size)]);
       this.circles = svg.selectAll('circle')
-        .data(dataWeLoaded)
+        .data(finalData)
         .enter()
         .append('circle')
         .attr('cy', (d) => this.yScale(+d.salary))
@@ -120,6 +157,11 @@ export default {
         .attr('fill', (d) => this.colorScale(d.devType))
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
+    },
+    getWidth() {
+      return d3.select('#gapMinder')
+        .style('width')
+        .slice(0, -2);
     },
     renderGraphNewValues(countries, devTypes) {
       let newValues = this.immutableData;
