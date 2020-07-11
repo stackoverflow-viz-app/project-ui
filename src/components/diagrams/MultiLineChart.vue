@@ -59,7 +59,7 @@ export default {
 
       /* Format Data */
       data.forEach(function(d) {
-          d.YearsCodePro = +d.YearsCodePro;
+          d.YearsCodePro = d.YearsCodePro;
           d.Salary = +d.Salary;
           d.DevType = d.DevType;
       });
@@ -71,11 +71,12 @@ export default {
         data = data.filter(function(d) { if(countries.includes(d.Country)) return d;});
       if(devTypes.length > 0)
         data = data.filter(function(d) { if(devTypes.includes(d.DevType)) return d;});
-      data = data.filter(function(d) { if(d.Count>60) return d;});
+      data = data.filter(function(d) { if(d.Count>10) return d;});
       /* Scale */
-      var xScale = d3.scaleLinear()
-        .domain(d3.extent(data,  function(d) { return d.YearsCodePro; }))
-        .range([0, width-margin]);
+      var xScale = d3.scaleBand()
+        .domain(["0-2", "2-5", "5-7", "7-10","10-15","15-20","20+"])
+        .range([0, width-margin])
+        .padding(1);
 
       var yScale = d3.scaleLinear()
         .domain([0, d3.max(data,  function(d) { return d.Salary; })])
@@ -96,13 +97,17 @@ export default {
       /* Add line into SVG */
 
       var line = d3.line()
-        .x(d => xScale(+d.YearsCodePro))
+        .x(d => xScale(d.YearsCodePro))
         .y(d => yScale(+d.Salary));
 
       let lines = svg.append('g')
         .attr('class', 'lines');
 
+
+      
+
       let secondMap = (items)=>{
+        //keyorder = 
         let result = []
         items.forEach(element => {
           result.push({
@@ -110,8 +115,8 @@ export default {
             Salary : element.value.Salary,
             Count : element.value.Count
           })
-        });
-        result = result.sort((a, b) => (a.YearsCodePro > b.YearsCodePro) ? 1 : -1)
+        });      
+        result = result.sort((a, b) => (["0-2", "2-5", "5-7", "7-10","10-15","15-20","20+"].indexOf(a.YearsCodePro) < ["0-2", "2-5", "5-7", "7-10","10-15","15-20","20+"].indexOf(b.YearsCodePro)) ? 1 : -1)
         return result;
       }
       
@@ -228,7 +233,13 @@ export default {
     svg.append("g")
         .attr("class", "x axis")
         .attr("transform", `translate(0, ${height-margin})`)
-        .call(xAxis);
+        .call(xAxis)
+        .append('text')
+        .attr("x", width-margin)
+        .attr("y", 20)
+        .attr("transform", "rotate(360)")
+        .attr("fill", "#000")
+        .text("Years Coding");
 
       svg.append("g")
         .attr("class", "y axis")
@@ -237,7 +248,7 @@ export default {
         .attr("y", 15)
         .attr("transform", "rotate(-90)")
         .attr("fill", "#000")
-        .text("Total values");
+        .text("Mean Salary");
         },
       }
 }

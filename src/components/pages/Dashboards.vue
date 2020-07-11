@@ -15,8 +15,9 @@
           <v-col cols="6">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
-                <h3>Work-life Balance</h3>
-                <RadarChart style="text-align:center"
+               <h3>Education impact over Developer Type</h3>
+                <GapMinderChart
+                  :width="700" :height="350" :margin="20"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
@@ -35,9 +36,8 @@
           <v-col cols="6">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
-                <h3>Education impact over Developer Type</h3>
-                <GapMinderChart
-                  :width="700" :height="450" :margin="20"
+                 <h3>Work-life Balance</h3>
+                <RadarChart style="text-align:center"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
@@ -46,7 +46,7 @@
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
-                <NetworkGraph :width="700" :height="450"
+                <NetworkGraph :width="700" :height="350"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
