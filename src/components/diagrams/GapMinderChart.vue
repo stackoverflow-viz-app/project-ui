@@ -90,7 +90,7 @@ export default {
         .text(this.xTitle)
         .attr('font-size', 10)
         .attr('font-family', 'sans-serif')
-        .attr('x', this.width / 2 + this.margin)
+        .attr('x', this.width / 2.3 - (2 * this.margin))
         .attr('y', this.height - this.margin);
     },
     readData() {

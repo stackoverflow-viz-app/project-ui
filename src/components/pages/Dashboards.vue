@@ -38,8 +38,8 @@
               <v-card-text>
                 <h3>Education impact over Developer Type</h3>
                 <GapMinderChart
-                  :width="700" :height="450" :margin="20"
-                  y-title="Mean Salary" x-title="Educational Level"
+                  :width="700" :height="450" :margin="20" y-title="Mean Salary"
+                  x-title="Educational Level, From (1 No Degree) To (4 Phd Degree)"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
