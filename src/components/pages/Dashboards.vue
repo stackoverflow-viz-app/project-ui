@@ -49,7 +49,7 @@
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
-                <NetworkGraph :width="700" :height="450"
+                <NetworkGraph :width="1000" :height="450"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
