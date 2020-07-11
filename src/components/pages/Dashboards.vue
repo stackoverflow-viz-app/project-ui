@@ -6,7 +6,8 @@
         <v-row>
           <v-col cols="12">
             <Filters :countries="countries" :devTypes="devTypes"
-               :selectedCountries.sync="selectedCountries" :selectedDevTypes.sync="selectedDevTypes"/>
+              :selectedCountries.sync="selectedCountries"
+              :selectedDevTypes.sync="selectedDevTypes"/>
           </v-col>
         </v-row>
       </v-col>
@@ -38,6 +39,7 @@
                 <h3>Education impact over Developer Type</h3>
                 <GapMinderChart
                   :width="700" :height="450" :margin="20"
+                  y-title="Mean Salary" x-title="Educational Level"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>

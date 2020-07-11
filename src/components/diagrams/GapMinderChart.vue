@@ -4,95 +4,113 @@
 
 <script>
 import * as d3 from 'd3';
+import d3Tip from 'd3-tip';
 
 export default {
   props: ['height', 'width', 'margin', 'x-title', 'y-title',
     'selectedCountries', 'selectedDevTypes'],
   watch: {
     selectedCountries(newArray, oldArray) {
-      console.log("GapMinder Countries");
-      console.log(`New values ${newArray}`);
+      const countries = newArray;
+      const devTypes = this.selectedDevTypes;
+      this.renderGraphNewValues(countries, devTypes);
     },
     selectedDevTypes(newArray, oldArray) {
-      console.log("GapMinder DevTypes");
-      console.log(`New values ${newArray}`);
+      const countries = this.selectedCountries;
+      const devTypes = newArray;
+      this.renderGraphNewValues(countries, devTypes);
     },
   },
   data() {
-    return {};
+    return {
+      tip: null,
+      svg: null,
+      circles: null,
+      xScale: null,
+      yScale: null,
+      rScale: null,
+      colorScale: null,
+      immutableData: [],
+    };
   },
   mounted() {
-    this.renderChart();
+    this.initGraph();
+    this.readData();
   },
   methods: {
-    renderChart() {
-      const chart = d3
+    initGraph() {
+      this.tip = d3Tip()
+        .attr('class', 'd3-tip')
+        .html((d) => `<strong>Country: </strong><span class='details'>${d.country}<br></span>`
+                  + `<strong>Type: </strong><span class='details'>${d.devType}<br></span>`
+                  + `<strong>Mean Ed. Level: </strong><span class='details'>${d.levelEd}<br></span>`
+                  + `<strong>Mean Salary: </strong><span class='details'>${d.salary}<br></span>`
+                  + `<strong>Size: </strong><span class='details'>${d.size}<br></span>`);
+
+      this.svg = d3
         .select('#gapMinder')
         .attr('width', this.width)
         .attr('height', this.height);
 
+      this.svg.call(this.tip);
+
+      this.xScale = d3.scaleLinear()
+        .domain([0, 4.5])
+        .range([100, 680]);
+      this.yScale = d3.scaleLinear()
+        .domain([10000, 300000])
+        .range([400, 30]);
+
+      this.rScale = d3.scaleSqrt()
+        .range([0, 50]);
+      this.colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+      const leftAxis = d3.axisLeft(this.yScale);
+      const bottomAxis = d3.axisBottom(this.xScale);
+
+      this.svg.append('g')
+        .attr('transform', 'translate(100,0)')
+        .call(leftAxis);
+
+      this.svg.append('g')
+        .attr('transform', 'translate(0,400)')
+        .call(bottomAxis);
+    },
+    readData() {
       Promise.all([
-        d3.csv('./data/gapminder.csv'),
+        d3.dsv('|', './data/gapminder.csv'),
       ]).then(
-        (d) => this.renderGapMinder(chart, d[0]),
+        (d) => {
+          // eslint-disable-next-line prefer-destructuring
+          this.immutableData = d[0];
+          this.renderGraph(this.svg, this.tip, this.immutableData);
+        },
       );
     },
-    renderGapMinder(svg, dataWeLoaded) {
-      const xScale = d3.scaleLinear()
-        .domain([0, 40000])
-        .range([100, 800]);
-      const yScale = d3.scaleLinear()
-        .domain([30, 80])
-        .range([400, 100]);
-      const rScale = d3.scaleSqrt()
-        .range([0, 50]);
-      const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-
-      rScale.domain([0, d3.max(dataWeLoaded, (d) => +d.population)]);
-      svg.selectAll('circle')
+    renderGraph(svg, tip, dataWeLoaded) {
+      this.rScale.domain([0, d3.max(dataWeLoaded, (d) => +d.size)]);
+      this.circles = svg.selectAll('circle')
         .data(dataWeLoaded)
         .enter()
         .append('circle')
-        .attr('cy', (d) => yScale(+d.lifeexp))
-        .attr('cx', (d) => xScale(+d.gdp))
-        .attr('r', (d) => rScale(+d.population))
+        .attr('cy', (d) => this.yScale(+d.salary))
+        .attr('cx', (d) => this.xScale(+d.levelEd))
+        .attr('r', (d) => this.rScale(+d.size))
         .attr('fill-opacity', 0.4)
         .attr('stroke', 'black')
         .attr('stroke-width', 2)
         .attr('stroke-opacity', 1)
-        .attr('fill', (d) => colorScale(d.region))
-        /* eslint-disable */
-        .on('mouseover', function (d) {
-          d3.select(this)
-            .attr('fill', 'yellow')
-            .transition()
-            .attr('r', (d) => 1.5 * rScale(+d.population));
-        })
-        .on('mouseout', function (d) {
-          d3.select(this)
-            .attr('fill', (d) => colorScale(d.region))
-            .transition()
-            .attr('r', (d) => rScale(+d.population));
-        });
-
-      const leftAxis = d3.axisLeft(yScale);
-      const bottomAxis = d3.axisBottom(xScale);
-
-      svg.append('g')
-        .attr('transform', 'translate(100,0)')
-        .call(leftAxis);
-
-      svg.append('g')
-        .attr('transform', 'translate(0,400)')
-        .call(bottomAxis);
+        .attr('fill', (d) => this.colorScale(d.devType))
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
 
       svg.append('text')
         .attr('class', 'label')
         .text(this.yTitle)
         .attr('font-size', 10)
         .attr('font-family', 'sans-serif')
-        .attr('x', -(this.width) / 3.5)
-        .attr('y', this.margin)
+        .attr('x', -(this.width) / 3)
+        .attr('y', 2 * this.margin)
         .attr('transform', 'rotate(-90)');
 
       svg.append('text')
@@ -100,7 +118,25 @@ export default {
         .text(this.xTitle)
         .attr('font-size', 10)
         .attr('font-family', 'sans-serif')
-        .attr('transform', 'translate(770,430)');
+        .attr('x', this.width / 2 + this.margin)
+        .attr('y', this.height - this.margin);
+    },
+    renderGraphNewValues(countries, devTypes) {
+      let newValues = this.immutableData;
+      if (countries.length && devTypes.length) {
+        newValues = newValues
+          .filter((item) => countries.includes(item.country))
+          .filter((item) => devTypes.includes(item.devType));
+      } else if (countries.length && devTypes.length === 0) {
+        newValues = newValues
+          .filter((item) => countries.includes(item.country));
+      } else if (countries.length === 0 && devTypes.length) {
+        newValues = newValues
+          .filter((item) => devTypes.includes(item.devType));
+      }
+
+      this.circles.remove();
+      this.renderGraph(this.svg, this.tip, newValues);
     },
   },
 };
