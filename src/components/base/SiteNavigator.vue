@@ -84,7 +84,7 @@ export default {
         icon: 'mdi-youtube',
       },
       ],
-      color: '#1A1A24',
+      color: '#0D47A1',
       drawer: false,
     };
   },
