@@ -15,7 +15,8 @@ export default {
   props: ['height', 'selectedDevTypes'],
   watch: {
     selectedDevTypes(newArray, oldArray) {
-      const selDevTypes = newArray.length > 0 ? newArray : this.devTypes;
+      const selDevTypes = newArray.length > 0
+        ? [...newArray].sort((a, b) => a.localeCompare(b)) : this.devTypes;
       this.renderNewValues(selDevTypes);
     },
   },
@@ -37,14 +38,13 @@ export default {
         .attr('width', '100%')
         .attr('height', this.height);
 
-      this.renderSvg(this.devTypes);
+      this.renderSvg([...this.devTypes].sort((a, b) => a.localeCompare(b)));
     },
     renderSvg(data) {
-      const finalData = data.sort((a, b) => a.localeCompare(b));
       const color = d3.scaleOrdinal(d3.schemeCategory10);
       const size = 10;
       this.dots = this.svg.selectAll('mydots')
-        .data(finalData)
+        .data(data)
         .enter()
         .append('rect')
         .attr('x', 10)
@@ -54,7 +54,7 @@ export default {
         .style('fill', (d) => color(d));
 
       this.labels = this.svg.selectAll('mylabels')
-        .data(finalData)
+        .data(data)
         .enter()
         .append('text')
         .attr('x', 10 + size * 1.2)
@@ -72,6 +72,7 @@ export default {
     renderNewValues(devTypes) {
       this.dots.remove();
       this.labels.remove();
+
       this.renderSvg(devTypes);
     },
   },
