@@ -10,10 +10,16 @@
               :selectedDevTypes.sync="selectedDevTypes"/>
           </v-col>
         </v-row>
+        <v-row>
+          <v-col cols="12">
+            <Legend
+              :selectedDevTypes="selectedDevTypes"/>
+          </v-col>
+        </v-row>
       </v-col>
       <v-col cols="12" lg="10" md="10" sm="12">
         <v-row>
-          <v-col cols="12" lg="6" md="6" sm="12">
+          <v-col cols="12" lg="6" md="12" sm="12">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
 
@@ -27,7 +33,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" lg="6" md="6" sm="12">
+          <v-col cols="12" lg="6" md="12" sm="12">
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Upward mobility</h3>
@@ -39,7 +45,7 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="12" lg="6" md="6" sm="12">
+          <v-col cols="12" lg="6" md="12" sm="12">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
                  <h3>Work-life Balance</h3>
@@ -50,7 +56,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" lg="6" md="6" sm="12">
+          <v-col cols="12" lg="6" md="12" sm="12">
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
@@ -69,6 +75,7 @@
 <script>
 import BannerStatsCards from '../base/BannerStatsCards.vue';
 import Filters from '../base/Filters.vue';
+import Legend from '../base/Legend.vue';
 import RadarChart from '../diagrams/RadarChart.vue';
 import MultiLineChart from '../diagrams/MultiLineChart.vue';
 import GapMinderChart from '../diagrams/GapMinderChart.vue';
@@ -78,6 +85,7 @@ export default {
   components: {
     BannerStatsCards,
     Filters,
+    Legend,
     RadarChart,
     MultiLineChart,
     GapMinderChart,

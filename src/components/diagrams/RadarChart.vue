@@ -393,46 +393,46 @@ export default {
 		.attr("text-anchor", "middle")
 		.attr("dy", "0.35em");
 
-	if (cfg.legend !== false && typeof cfg.legend === "object") {
-		let legendZone = svg.append('g');
-		let names = nestedData.map(el => el.name);
-		if (cfg.legend.title) {
-			let title = legendZone.append("text")
-				.attr("class", "title")
-				.attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY})`)
-				.attr("x", cfg.w - 70)
-				.attr("y", 10)
-				.attr("font-size", "12px")
-				.attr("fill", "#404040")
-				.text(cfg.legend.title);
-		}
-		let legend = legendZone.append("g")
-			.attr("class", "legend")
-			.attr("height", 100)
-			.attr("width", 200)
-			.attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY + 20})`);
-		// Create rectangles markers
-		legend.selectAll('rect')
-		  .data(names)
-		  .enter()
-		  .append("rect")
-		  .attr("x", cfg.w - 65)
-		  .attr("y", (d,i) => i * 20)
-		  .attr("width", 10)
-		  .attr("height", 10)
-		  .style("fill", (d,i) => cfg.color(i));
-		// Create labels
-		legend.selectAll('text')
-		  .data(names)
-		  .enter()
-		  .append("text")
-		  .attr("x", cfg.w - 52)
-		  .attr("y", (d,i) => i * 20 + 9)
-		  .attr("font-size", "11px")
-		  .attr("fill", "#737373")
-		  .text(d => d);
+	// if (cfg.legend !== false && typeof cfg.legend === "object") {
+	// 	let legendZone = svg.append('g');
+	// 	let names = nestedData.map(el => el.name);
+	// 	if (cfg.legend.title) {
+	// 		let title = legendZone.append("text")
+	// 			.attr("class", "title")
+	// 			.attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY})`)
+	// 			.attr("x", cfg.w - 70)
+	// 			.attr("y", 10)
+	// 			.attr("font-size", "12px")
+	// 			.attr("fill", "#404040")
+	// 			.text(cfg.legend.title);
+	// 	}
+	// 	let legend = legendZone.append("g")
+	// 		.attr("class", "legend")
+	// 		.attr("height", 100)
+	// 		.attr("width", 200)
+	// 		.attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY + 20})`);
+	// 	// Create rectangles markers
+	// 	legend.selectAll('rect')
+	// 	  .data(names)
+	// 	  .enter()
+	// 	  .append("rect")
+	// 	  .attr("x", cfg.w - 65)
+	// 	  .attr("y", (d,i) => i * 20)
+	// 	  .attr("width", 10)
+	// 	  .attr("height", 10)
+	// 	  .style("fill", (d,i) => cfg.color(i));
+	// 	// Create labels
+	// 	legend.selectAll('text')
+	// 	  .data(names)
+	// 	  .enter()
+	// 	  .append("text")
+	// 	  .attr("x", cfg.w - 52)
+	// 	  .attr("y", (d,i) => i * 20 + 9)
+	// 	  .attr("font-size", "11px")
+	// 	  .attr("fill", "#737373")
+	// 	  .text(d => d);
 
-	}
+	// }
   return svg;
     },
   },
