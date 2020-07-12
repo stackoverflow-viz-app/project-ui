@@ -16,7 +16,8 @@ export default {
   watch: {
     selectedDevTypes(newArray, oldArray) {
       const selDevTypes = newArray.length > 0
-        ? [...newArray].sort((a, b) => a.localeCompare(b)) : this.devTypes;
+        ? [...newArray].sort((a, b) => a.localeCompare(b))
+        : [...this.devTypes].sort((a, b) => a.localeCompare(b));
       this.renderNewValues(selDevTypes);
     },
   },
