@@ -6,7 +6,7 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['selectedCountries', 'selectedDevTypes'],
+  props: ['selectedCountries', 'selectedDevTypes','height'],
   watch: {
     selectedCountries(newArray, oldArray) {
       const countries = newArray;
@@ -43,8 +43,8 @@ export default {
     },
     renderChart(parent_selector, data,countries, devTypes) {
       var width = 700;
-      var height = 400;
       var margin = 50;
+      var height = this.height-margin;  
       var duration = 250;
 
       var lineOpacity = "0.25";
@@ -87,11 +87,11 @@ export default {
 
       /* Add SVG */
       var svg = d3.select(parent_selector).append("svg")
-        .attr("width", (width+margin)+"px")
+        .attr("width", '100%')
         .attr("height", (height+margin)+"px")
         .append('g')
         .attr("transform", `translate(${margin}, ${margin})`);
-
+      
       /* Add line into SVG */
 
       var line = d3.line()
@@ -100,9 +100,6 @@ export default {
 
       let lines = svg.append('g')
         .attr('class', 'lines');
-
-
-      
 
       let secondMap = (items)=>{
         //keyorder = 
@@ -221,9 +218,12 @@ export default {
               .attr("r", circleRadius);
         });
 
+    
+    
+
     /* Add Axis into SVG */
     var xAxis = d3.axisBottom(xScale).ticks(5);
-    var yAxis = d3.axisLeft(yScale).ticks(5);
+    var yAxis = d3.axisLeft(yScale).ticks(5);   
 
     svg.append("g")
         .attr("class", "x axis")
@@ -245,7 +245,12 @@ export default {
         .attr("fill", "#000")
         .text("Mean Salary");
         },
-      }
+      },
+      getWidth(){
+        return d3.select('.line_chart')
+        .style('width')
+        .slice(0, -2)
+      },
 }
 </script>
 

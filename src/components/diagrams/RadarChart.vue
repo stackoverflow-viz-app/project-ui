@@ -6,7 +6,7 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['selectedCountries', 'selectedDevTypes'],
+  props: ['selectedCountries', 'selectedDevTypes','height'],
   watch: {
     selectedCountries(newArray, oldArray) {
       const countries = newArray;
@@ -201,7 +201,7 @@ export default {
 
 	//Initiate the radar chart SVG
 	let svg = parent.append("svg")
-			.attr("width",  cfg.w + cfg.margin.left + cfg.margin.right)
+			.attr("width",  '100%')
 			.attr("height", cfg.h + cfg.margin.top + cfg.margin.bottom)
 			.attr("class", "radar");
 	
