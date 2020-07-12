@@ -41,8 +41,8 @@ export default {
       this.tip = d3Tip()
         .attr('class', 'd3-tip')
         .html((d) => `<strong>Type: </strong><span class='details'>${d.devType}<br></span>`
-                  + `<strong>Mean Ed. Level: </strong><span class='details'>${d.levelEd}<br></span>`
-                  + `<strong>Mean Salary: </strong><span class='details'>${d.salary}<br></span>`
+                  + `<strong>Mean Ed. Level: </strong><span class='details'>${d.levelEd.toFixed(2)}<br></span>`
+                  + `<strong>Mean Salary: </strong><span class='details'>${d.salary.toFixed(2)}<br></span>`
                   + `<strong>Size: </strong><span class='details'>${d.size}<br></span>`);
 
       this.svg = d3

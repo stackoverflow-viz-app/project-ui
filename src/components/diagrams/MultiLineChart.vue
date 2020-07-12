@@ -189,7 +189,7 @@ export default {
             .style("cursor", "pointer")
             .append("text")
             .attr("class", "text")
-            .text(`${'Mean Salary:'+d.Salary+' , Years Exp: '+d.YearsCodePro}`)
+            .text(`${'Mean Salary:'+d.Salary.toFixed(2)+' , Years Exp: '+d.YearsCodePro}`)
             .attr("x", d => xScale(d.YearsCodePro) + 5)
             .attr("y", d => yScale(d.Salary) - 10);
         })
