@@ -29,7 +29,6 @@ export default {
       xScale: null,
       yScale: null,
       rScale: null,
-      colorScale: null,
       immutableData: [],
     };
   },
@@ -62,7 +61,6 @@ export default {
 
       this.rScale = d3.scaleSqrt()
         .range([0, 50]);
-      this.colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
       const leftAxis = d3.axisLeft(this.yScale);
       const bottomAxis = d3.axisBottom(this.xScale);
@@ -105,8 +103,6 @@ export default {
     },
     renderGraph(svg, tip, dataWeLoaded) {
       /* Format Data */
-      // dataWeLoaded.forEach((d) => {
-
       const dataStructure = (items) => {
         // keyorder =
         const result = [];
@@ -135,12 +131,16 @@ export default {
           values: dataStructure(d.values),
         }));
 
-      const finalData = nestedData.map((d) => ({
+      let finalData = nestedData.map((d) => ({
         devType: d.key,
         salary: d3.mean(d.values, (sal) => sal.salary),
         levelEd: d3.mean(d.values, (ed) => ed.levelEd),
         size: d3.sum(d.values, (siz) => siz.size),
       }));
+
+      finalData = finalData.sort((a, b) => a.devType.localeCompare(b.devType));
+
+      const color = d3.scaleOrdinal(d3.schemeCategory10);
 
       this.rScale.domain([0, d3.max(dataWeLoaded, (d) => +d.size)]);
       this.circles = svg.selectAll('circle')
@@ -154,7 +154,7 @@ export default {
         .attr('stroke', 'black')
         .attr('stroke-width', 2)
         .attr('stroke-opacity', 1)
-        .attr('fill', (d) => this.colorScale(d.devType))
+        .attr('fill', (d) => color(d.devType))
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
     },
