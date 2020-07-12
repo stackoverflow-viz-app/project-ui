@@ -2,7 +2,7 @@
   <div class="pa-2 stats-card__container">
     <BannerStatsCards />
     <v-row>
-      <v-col cols="2">
+      <v-col cols="12" lg="2" md="2" sm="12">
         <v-row>
           <v-col cols="12">
             <Filters :countries="countries" :devTypes="devTypes"
@@ -11,9 +11,9 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col cols="10">
+      <v-col cols="12" lg="10" md="10" sm="12">
         <v-row>
-          <v-col cols="6">
+          <v-col cols="12" lg="6" md="6" sm="12">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
 
@@ -27,28 +27,30 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="12" lg="6" md="6" sm="12">
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Upward mobility</h3>
                 <MultiLineChart style="text-align:center"
+                  :height="450"
                   :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="6">
+          <v-col cols="12" lg="6" md="6" sm="12">
             <v-card class="filter-section-card" outlined>
               <v-card-text>
                  <h3>Work-life Balance</h3>
                 <RadarChart style="text-align:center"
-                :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
+                  :height="450"
+                  :selectedCountries="selectedCountries" :selectedDevTypes="selectedDevTypes"/>
 
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="12" lg="6" md="6" sm="12">
             <v-card class="filter-section-card" outlined>
                 <v-card-text>
                 <h3>Technologies correlation</h3>
