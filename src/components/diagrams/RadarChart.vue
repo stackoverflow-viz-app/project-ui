@@ -95,10 +95,8 @@ export default {
         data = data.filter(function(d) { if(countries.includes(d.Country)) return d;});
       if(devTypes.length > 0)
         data = data.filter(function(d) { if(devTypes.includes(d.DevType)) return d;});
-	  console.log(countries,countries)
 
 	let secondMap = (items)=>{
-		console.log(items)
         //keyorder = 
         let result = []
 		result = [
@@ -119,8 +117,6 @@ export default {
 		  d.CareerSat = +d.CareerSat;
 		  d.Count = +d.Count;
       });
-
-	  console.log(data.length);
       
       let nestedData = d3.nest()
         .key(function(d) {return d.DevType;})
@@ -436,7 +432,6 @@ export default {
 		  .attr("fill", "#737373")
 		  .text(d => d);
 
-		  console.log('names:',names);
 	}
   return svg;
     },
