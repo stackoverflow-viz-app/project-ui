@@ -1,14 +1,13 @@
 <template>
  <v-app id="inspire">
-    <div>
+
       <v-app-bar
-        :color="color" dense dark>
+        :color="color" dense dark fixed>
 
         <v-app-bar-nav-icon @click.stop="toggleNavigation"></v-app-bar-nav-icon>
         <v-toolbar-title>Stack Overflow Insights</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-app-bar>
-    </div>
     <v-navigation-drawer
           v-model="drawer" :color="color" app temporary dark>
 
@@ -38,7 +37,8 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-main :style="{background: '#fefefe'}">
+  
+    <v-main :style="{background: '#fefefe'}" class="mt-15">
       <v-container fluid >
         <v-row class="fill-height">
           <v-col>
@@ -49,6 +49,8 @@
         </v-row>
       </v-container>
     </v-main>
+ 
+    
     </v-app>
 </template>
 
