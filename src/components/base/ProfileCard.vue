@@ -69,7 +69,7 @@ export default {
 
 .card-desc-text{
   overflow-y: auto;
-  height: 20vh;
+  height: 15vh;
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <svg></svg>
+  <svg id="map"></svg>
 </template>
 
 <script>
@@ -20,10 +20,14 @@ export default {
       const tip = d3Tip()
         .attr('class', 'd3-tip')
         .html((d) => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>`
-        + `<strong>Population: </strong><span class='details'>${d.population}</span>`);
+        + `<strong>Respondents: </strong><span class='details'>${d.respondent}</span>`);
 
-      const chart = d3.select('svg')
-        .attr('height', this.height);
+      const chart = d3.select('#map')
+        .attr('height', this.height)
+        .call(d3.zoom().on('zoom', () => {
+          chart.attr('transform', d3.event.transform);
+        }))
+        .append('g');
 
       // Map and projection
       const pathGenerator = d3.geoPath().projection(geoRobinson());
@@ -31,16 +35,17 @@ export default {
       // TODO: Props domain and range
       const colorScale = d3.scaleThreshold()
         .domain([
+          50,
+          100,
+          200,
+          300,
+          400,
+          500,
+          1000,
+          3000,
+          5000,
           10000,
-          100000,
-          500000,
-          1000000,
-          5000000,
-          10000000,
-          50000000,
-          100000000,
-          500000000,
-          1500000000,
+          20000,
         ])
         .range([
           'rgb(247,251,255)',
@@ -52,6 +57,7 @@ export default {
           'rgb(33,113,181)',
           'rgb(8,81,156)',
           'rgb(8,48,107)',
+          'rgb(32, 51, 84)',
           'rgb(3,19,43)',
         ]);
 
@@ -59,17 +65,17 @@ export default {
 
       Promise.all([
         d3.json('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson'),
-        d3.tsv('http://localhost:8080/data/contribution.tsv'),
+        d3.tsv('./data/contribution.tsv'),
       ]).then(
         (d) => this.renderMap(chart, pathGenerator, colorScale, tip, d[0], d[1]),
       );
     },
-    renderMap(chart, pathGenerator, colorScale, tip, data, population) {
-      const populationById = {};
+    renderMap(chart, pathGenerator, colorScale, tip, data, respondent) {
+      const respondentById = {};
 
-      population.forEach((d) => { populationById[d.id] = +d.population; });
+      respondent.forEach((d) => { respondentById[d.id] = d.respondent; });
       /* eslint-disable no-param-reassign */
-      data.features.forEach((d) => { d.population = populationById[d.id]; });
+      data.features.forEach((d) => { d.respondent = respondentById[d.id]; });
 
       chart.append('g')
         .attr('class', 'countries')
@@ -78,7 +84,7 @@ export default {
         .enter()
         .append('path')
         .attr('d', pathGenerator)
-        .style('fill', (d) => colorScale(populationById[d.id]))
+        .style('fill', (d) => colorScale(respondentById[d.id]))
         .style('stroke', 'white')
         .style('stroke-width', 1.5)
         .style('opacity', 0.8)

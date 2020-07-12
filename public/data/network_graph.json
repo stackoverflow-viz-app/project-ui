@@ -1,0 +1,1644 @@
+{
+  "nodes": [
+    {
+      "name": "Scala",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "1",
+      "size": 1
+    },
+    {
+      "name": "Hadoop",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Apache Spark",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "C",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 2
+    },
+    {
+      "name": "C++",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 2
+    },
+    {
+      "name": "Bash/Shell/PowerShell",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "Data or business analyst",
+        "Data scientist & ML",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 3
+    },
+    {
+      "name": "Ruby on Rails",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Ruby",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 1
+    },
+    {
+      "name": "Java",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 4
+    },
+    {
+      "name": "Kotlin",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 1
+    },
+    {
+      "name": "Spring",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 3
+    },
+    {
+      "name": "Keras",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Pandas",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 2
+    },
+    {
+      "name": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "TensorFlow",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Flask",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China"
+      ],
+      "group": "2",
+      "size": 2
+    },
+    {
+      "name": "Django",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 2
+    },
+    {
+      "name": "Python",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 4
+    },
+    {
+      "name": "MongoDB",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Academic researcher",
+        "Data or business analyst",
+        "Developer, front-end",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "3",
+      "size": 3
+    },
+    {
+      "name": "Docker",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "4",
+      "size": 3
+    },
+    {
+      "name": "Kubernetes",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "4",
+      "size": 2
+    },
+    {
+      "name": "Go",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 1
+    },
+    {
+      "name": "Teraform",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Ansible",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 1
+    },
+    {
+      "name": "Elasticsearch",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "3",
+      "size": 2
+    },
+    {
+      "name": "Kibana",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 2
+    },
+    {
+      "name": "JavaScript",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 4
+    },
+    {
+      "name": "HTML/CSS",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 4
+    },
+    {
+      "name": "PHP",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Developer, front-end",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 3
+    },
+    {
+      "name": "SQL",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Academic researcher",
+        "Data or business analyst",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 4
+    },
+    {
+      "name": "jQuery",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 3
+    },
+    {
+      "name": "Node.js",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 3
+    },
+    {
+      "name": "React.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 3
+    },
+    {
+      "name": "Angular",
+      "devType": [
+        "Developer, front-end",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "2",
+      "size": 2
+    },
+    {
+      "name": "TypeScript",
+      "devType": [
+        "Developer, front-end",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 2
+    },
+    {
+      "name": "MySQL",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Academic researcher",
+        "Data or business analyst",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "3",
+      "size": 4
+    },
+    {
+      "name": "MicrosoftSQL Server",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Data or business analyst",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "3",
+      "size": 3
+    },
+    {
+      "name": "C#",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "1",
+      "size": 3
+    },
+    {
+      "name": "ASP.NET",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ],
+      "group": "3",
+      "size": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "C",
+      "target": "C++",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "C++",
+      "target": "Bash/Shell/PowerShell",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Bash/Shell/PowerShell",
+      "target": "C",
+      "devType": [
+        "Developer, back-end",
+        "Database administrator",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Scala",
+      "target": "Apache Spark",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Apache Spark",
+      "target": "Hadoop",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Hadoop",
+      "target": "Scala",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Ruby",
+      "target": "Ruby on Rails",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Kotlin",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Java",
+      "target": "Spring",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Keras",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Pandas",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Pandas",
+      "target": "Keras",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Keras",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Pandas",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Flask",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Django",
+      "devType": [
+        "Developer, full-stack",
+        "Academic researcher",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Pandas",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Keras",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Python",
+      "target": "Torch/PyTorch",
+      "devType": [
+        "Academic researcher",
+        "Data or business analyst",
+        "Data scientist & ML"
+      ],
+      "country": [
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ]
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Docker",
+      "target": "Go",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Go",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Teraform",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Ansible",
+      "target": "Teraform",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Kibana",
+      "target": "Elasticsearch",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Kibana",
+      "target": "Kubernetes",
+      "devType": [
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "HTML/CSS",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "HTML/CSS",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "HTML/CSS",
+      "target": "jQuery",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "PHP",
+      "target": "SQL",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "SQL",
+      "target": "MySQL",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Academic researcher",
+        "Data or business analyst",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "JavaScript",
+      "target": "Node.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Node.js",
+      "target": "React.js",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "TypeScript",
+      "target": "JavaScript",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "Angular",
+      "target": "TypeScript",
+      "devType": [
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "MongoDB",
+      "target": "Node.js",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Academic researcher",
+        "Developer, front-end"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland",
+        "Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "MicrosoftSQL Server",
+      "target": "SQL",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack",
+        "Database administrator",
+        "Data or business analyst",
+        "DevOps specialist"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "MicrosoftSQL Server",
+      "target": "ASP.NET",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "MicrosoftSQL Server",
+      "target": "C#",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    },
+    {
+      "source": "ASP.NET",
+      "target": "C#",
+      "devType": [
+        "Developer, back-end",
+        "Developer, full-stack"
+      ],
+      "country": [
+        "United States",
+        "India",
+        "Germany",
+        "United Kingdom",
+        "Canada",
+        "France", 
+        "Brazil", 
+        "Poland","Australia",
+        "China",
+        "Greece"
+      ]
+    }
+  ]
+}

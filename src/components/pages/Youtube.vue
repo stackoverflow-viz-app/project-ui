@@ -18,7 +18,7 @@
 export default {
   data() {
     return {
-      videoId: 'lG0Ys-2d4MA',
+      videoId: 'wSOmzuOE2eA',
       playerVars: {
         autoplay: 0,
       },

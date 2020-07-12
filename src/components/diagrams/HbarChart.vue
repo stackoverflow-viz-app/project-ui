@@ -7,7 +7,7 @@
 import * as d3 from 'd3';
 
 export default {
-  props: ['data', 'height', 'width', 'margin', 'hx-title', 'hy-title'],
+  props: ['data', 'height', 'width', 'margin', 'x-title', 'y-title'],
 
   mounted() {
     this.renderChart(this.data);
@@ -64,7 +64,7 @@ export default {
         .attr('y', this.margin / 2.4)
         .attr('transform', 'rotate(-90)')
         .attr('text-anchor', 'middle')
-        .text(this.hyTitle);
+        .text(this.yTitle);
 
       chart
         .append('text')
@@ -72,7 +72,7 @@ export default {
         .attr('x', chartWidth / 2 + this.margin)
         .attr('y', chartHeight + this.margin / 1.7)
         .attr('text-anchor', 'middle')
-        .text(this.hxTitle);
+        .text(this.xTitle);
     },
   },
 };

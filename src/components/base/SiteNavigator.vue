@@ -1,14 +1,13 @@
 <template>
  <v-app id="inspire">
-    <div>
+
       <v-app-bar
-        :color="color" dense dark>
+        :color="color" dense dark fixed>
 
         <v-app-bar-nav-icon @click.stop="toggleNavigation"></v-app-bar-nav-icon>
         <v-toolbar-title>Stack Overflow Insights</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-app-bar>
-    </div>
     <v-navigation-drawer
           v-model="drawer" :color="color" app temporary dark>
 
@@ -38,8 +37,9 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-main>
-      <v-container fluid>
+  
+    <v-main :style="{background: '#fefefe'}" class="mt-15">
+      <v-container fluid >
         <v-row class="fill-height">
           <v-col>
             <transition name="fade">
@@ -49,6 +49,8 @@
         </v-row>
       </v-container>
     </v-main>
+ 
+    
     </v-app>
 </template>
 
@@ -63,7 +65,7 @@ export default {
   data() {
     return {
       items: [{
-        href: 'home',
+        href: '/',
         router: true,
         title: 'Home',
         icon: 'mdi-home',
@@ -84,7 +86,7 @@ export default {
         icon: 'mdi-youtube',
       },
       ],
-      color: 'blue darken-4',
+      color: '#0D47A1',
       drawer: false,
     };
   },

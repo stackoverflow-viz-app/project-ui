@@ -1,0 +1,572 @@
+Country,DevType,YearsCodePro,Salary,Count
+Australia,Academic researcher,0-2,81363.83333333333,6
+Australia,Academic researcher,10-15,254252.4,5
+Australia,Academic researcher,15-20,95014.0,3
+Australia,Academic researcher,2-5,70141.76470588235,17
+Australia,Academic researcher,20+,105162.25,4
+Australia,Academic researcher,5-7,61647.5,2
+Australia,Academic researcher,7-10,67451.55555555556,9
+Australia,Data or business analyst,0-2,50050.833333333336,18
+Australia,Data or business analyst,10-15,209083.45454545456,22
+Australia,Data or business analyst,15-20,114656.54545454546,11
+Australia,Data or business analyst,2-5,285212.625,16
+Australia,Data or business analyst,20+,75617.8947368421,19
+Australia,Data or business analyst,5-7,254062.66666666666,9
+Australia,Data or business analyst,7-10,128402.13333333333,15
+Australia,Data scientist & ML,0-2,134957.5,6
+Australia,Data scientist & ML,10-15,263159.3333333333,6
+Australia,Data scientist & ML,15-20,403445.6666666667,3
+Australia,Data scientist & ML,2-5,110596.38888888889,18
+Australia,Data scientist & ML,20+,378967.0,7
+Australia,Data scientist & ML,5-7,79178.5,6
+Australia,Data scientist & ML,7-10,291931.5,4
+Australia,Database administrator,0-2,166942.1875,16
+Australia,Database administrator,10-15,267850.2,15
+Australia,Database administrator,15-20,165634.3076923077,13
+Australia,Database administrator,2-5,224035.95454545456,22
+Australia,Database administrator,20+,232067.25,20
+Australia,Database administrator,5-7,212248.41176470587,17
+Australia,Database administrator,7-10,243465.23529411765,17
+Australia,DevOps specialist,0-2,560924.0,2
+Australia,DevOps specialist,10-15,99607.66666666667,3
+Australia,DevOps specialist,15-20,91388.0,2
+Australia,DevOps specialist,2-5,87610.25,4
+Australia,DevOps specialist,5-7,539891.5,2
+Australia,DevOps specialist,7-10,978698.0,2
+Australia,"Developer, back-end",0-2,129179.47368421052,38
+Australia,"Developer, back-end",10-15,170898.45614035087,57
+Australia,"Developer, back-end",15-20,256918.10638297873,47
+Australia,"Developer, back-end",2-5,169542.48684210525,76
+Australia,"Developer, back-end",20+,132405.1794871795,39
+Australia,"Developer, back-end",5-7,116165.46666666666,30
+Australia,"Developer, back-end",7-10,185351.06,50
+Australia,"Developer, front-end",0-2,51783.31578947369,19
+Australia,"Developer, front-end",10-15,193491.0,10
+Australia,"Developer, front-end",15-20,110724.83333333333,6
+Australia,"Developer, front-end",2-5,70180.29166666667,24
+Australia,"Developer, front-end",20+,550771.0,2
+Australia,"Developer, front-end",5-7,77222.0,7
+Australia,"Developer, front-end",7-10,250446.33333333334,21
+Australia,"Developer, full-stack",0-2,131169.3777777778,45
+Australia,"Developer, full-stack",10-15,135334.84782608695,46
+Australia,"Developer, full-stack",15-20,216918.0,29
+Australia,"Developer, full-stack",2-5,189631.27450980392,51
+Australia,"Developer, full-stack",20+,160670.4516129032,31
+Australia,"Developer, full-stack",5-7,194810.47826086957,23
+Australia,"Developer, full-stack",7-10,158661.48387096773,31
+Brazil,Academic researcher,0-2,32896.79069767442,43
+Brazil,Academic researcher,10-15,100616.85714285714,14
+Brazil,Academic researcher,15-20,27411.615384615383,13
+Brazil,Academic researcher,2-5,22337.81818181818,33
+Brazil,Academic researcher,20+,24099.666666666668,6
+Brazil,Academic researcher,5-7,18369.55,20
+Brazil,Academic researcher,7-10,29792.0,20
+Brazil,Data or business analyst,0-2,13235.15,20
+Brazil,Data or business analyst,10-15,35198.76470588235,17
+Brazil,Data or business analyst,15-20,176514.7857142857,14
+Brazil,Data or business analyst,2-5,22327.555555555555,27
+Brazil,Data or business analyst,20+,58282.22222222222,9
+Brazil,Data or business analyst,5-7,38376.0,7
+Brazil,Data or business analyst,7-10,28701.785714285714,14
+Brazil,Data scientist & ML,0-2,30231.2,5
+Brazil,Data scientist & ML,10-15,36079.0,6
+Brazil,Data scientist & ML,15-20,54638.0,1
+Brazil,Data scientist & ML,2-5,28540.333333333332,6
+Brazil,Data scientist & ML,20+,34548.0,3
+Brazil,Data scientist & ML,5-7,40180.6,5
+Brazil,Data scientist & ML,7-10,62907.25,4
+Brazil,Database administrator,0-2,9430.90909090909,11
+Brazil,Database administrator,10-15,36048.875,16
+Brazil,Database administrator,15-20,25228.5,8
+Brazil,Database administrator,2-5,14961.266666666666,15
+Brazil,Database administrator,20+,78991.14285714286,7
+Brazil,Database administrator,5-7,15687.636363636364,11
+Brazil,Database administrator,7-10,23659.0,12
+Brazil,DevOps specialist,0-2,5568.0,1
+Brazil,DevOps specialist,10-15,61855.0,2
+Brazil,DevOps specialist,2-5,306558.0,2
+Brazil,DevOps specialist,5-7,29508.0,1
+Brazil,DevOps specialist,7-10,26232.0,1
+Brazil,"Developer, back-end",0-2,10079.343434343435,99
+Brazil,"Developer, back-end",10-15,41284.77777777778,81
+Brazil,"Developer, back-end",15-20,49312.85365853659,41
+Brazil,"Developer, back-end",2-5,28163.031746031746,126
+Brazil,"Developer, back-end",20+,32964.903225806454,31
+Brazil,"Developer, back-end",5-7,29537.83582089552,67
+Brazil,"Developer, back-end",7-10,31716.071428571428,98
+Brazil,"Developer, front-end",0-2,8448.0,16
+Brazil,"Developer, front-end",10-15,55675.0,2
+Brazil,"Developer, front-end",15-20,18220.0,6
+Brazil,"Developer, front-end",2-5,18989.78947368421,19
+Brazil,"Developer, front-end",20+,26388.0,2
+Brazil,"Developer, front-end",5-7,18104.0,7
+Brazil,"Developer, front-end",7-10,39012.857142857145,14
+Brazil,"Developer, full-stack",0-2,10007.785714285714,56
+Brazil,"Developer, full-stack",10-15,47466.74074074074,27
+Brazil,"Developer, full-stack",15-20,36619.391304347824,23
+Brazil,"Developer, full-stack",2-5,22264.28787878788,66
+Brazil,"Developer, full-stack",20+,45288.230769230766,13
+Brazil,"Developer, full-stack",5-7,32392.935483870966,31
+Brazil,"Developer, full-stack",7-10,68658.70833333333,24
+Canada,Academic researcher,0-2,63024.09090909091,22
+Canada,Academic researcher,10-15,213995.66666666666,6
+Canada,Academic researcher,15-20,33334.333333333336,3
+Canada,Academic researcher,2-5,68797.35714285714,28
+Canada,Academic researcher,20+,183378.11111111112,9
+Canada,Academic researcher,5-7,275955.0,8
+Canada,Academic researcher,7-10,208023.41666666666,12
+Canada,Data or business analyst,0-2,97900.0,27
+Canada,Data or business analyst,10-15,130078.6,15
+Canada,Data or business analyst,15-20,210633.92307692306,13
+Canada,Data or business analyst,2-5,128453.52777777778,36
+Canada,Data or business analyst,20+,101841.32,25
+Canada,Data or business analyst,5-7,64378.8,15
+Canada,Data or business analyst,7-10,171620.2380952381,21
+Canada,Data scientist & ML,0-2,111004.93333333333,15
+Canada,Data scientist & ML,10-15,270332.2,10
+Canada,Data scientist & ML,15-20,117927.28571428571,7
+Canada,Data scientist & ML,2-5,77927.55,20
+Canada,Data scientist & ML,20+,180912.83333333334,12
+Canada,Data scientist & ML,5-7,182496.66666666666,9
+Canada,Data scientist & ML,7-10,50233.0,5
+Canada,Database administrator,0-2,96114.34615384616,26
+Canada,Database administrator,10-15,187385.375,24
+Canada,Database administrator,15-20,112442.44,25
+Canada,Database administrator,2-5,179939.69047619047,42
+Canada,Database administrator,20+,128927.36666666667,30
+Canada,Database administrator,5-7,122719.875,16
+Canada,Database administrator,7-10,105657.88,25
+Canada,DevOps specialist,0-2,58055.5,4
+Canada,DevOps specialist,10-15,99239.66666666667,3
+Canada,DevOps specialist,15-20,107826.25,4
+Canada,DevOps specialist,2-5,65651.25,4
+Canada,DevOps specialist,20+,108782.5,2
+Canada,DevOps specialist,5-7,82255.0,4
+Canada,DevOps specialist,7-10,72827.0,5
+Canada,"Developer, back-end",0-2,117427.91071428571,112
+Canada,"Developer, back-end",10-15,154869.06603773584,106
+Canada,"Developer, back-end",15-20,169950.37313432837,67
+Canada,"Developer, back-end",2-5,116927.0245398773,163
+Canada,"Developer, back-end",20+,165334.98734177215,79
+Canada,"Developer, back-end",5-7,117333.7435897436,78
+Canada,"Developer, back-end",7-10,142780.3873873874,111
+Canada,"Developer, front-end",0-2,75570.97142857143,35
+Canada,"Developer, front-end",10-15,104149.42857142857,7
+Canada,"Developer, front-end",15-20,180613.5,10
+Canada,"Developer, front-end",2-5,146003.33333333334,39
+Canada,"Developer, front-end",20+,104229.28571428571,7
+Canada,"Developer, front-end",5-7,151247.81818181818,22
+Canada,"Developer, front-end",7-10,67814.5,12
+Canada,"Developer, full-stack",0-2,180657.70476190475,105
+Canada,"Developer, full-stack",10-15,179497.58333333334,48
+Canada,"Developer, full-stack",15-20,139914.32432432432,37
+Canada,"Developer, full-stack",2-5,108532.35042735042,117
+Canada,"Developer, full-stack",20+,162707.7142857143,14
+Canada,"Developer, full-stack",5-7,93161.19047619047,42
+Canada,"Developer, full-stack",7-10,135943.1754385965,57
+China,Academic researcher,0-2,12596.0,3
+China,Academic researcher,2-5,17916.0,5
+China,Academic researcher,7-10,40032.0,2
+China,Data or business analyst,0-2,26688.0,1
+China,Data or business analyst,15-20,10.0,1
+China,Data or business analyst,2-5,113864.0,3
+China,Data or business analyst,5-7,26688.0,2
+China,Data or business analyst,7-10,28268.0,3
+China,Data scientist & ML,0-2,23130.0,4
+China,Data scientist & ML,2-5,74202.75,4
+China,Database administrator,0-2,16306.0,6
+China,Database administrator,10-15,59304.0,1
+China,Database administrator,2-5,46660.8,5
+China,Database administrator,5-7,38548.0,1
+China,Database administrator,7-10,109716.0,3
+China,DevOps specialist,0-2,23124.0,1
+China,DevOps specialist,10-15,103782.0,1
+China,DevOps specialist,2-5,59304.0,1
+China,"Developer, back-end",0-2,19343.653846153848,26
+China,"Developer, back-end",10-15,190805.57142857142,7
+China,"Developer, back-end",15-20,61578.666666666664,3
+China,"Developer, back-end",2-5,83851.57894736843,38
+China,"Developer, back-end",20+,25350.0,2
+China,"Developer, back-end",5-7,75958.375,8
+China,"Developer, back-end",7-10,132601.18181818182,11
+China,"Developer, front-end",0-2,21170.30769230769,13
+China,"Developer, front-end",2-5,29616.88888888889,9
+China,"Developer, front-end",5-7,2520.0,1
+China,"Developer, full-stack",0-2,89131.2,5
+China,"Developer, full-stack",10-15,53376.0,1
+China,"Developer, full-stack",15-20,74130.0,2
+China,"Developer, full-stack",2-5,32673.8,10
+China,"Developer, full-stack",20+,15120.0,1
+China,"Developer, full-stack",5-7,35586.0,2
+China,"Developer, full-stack",7-10,42696.0,3
+France,Academic researcher,0-2,31732.5,18
+France,Academic researcher,10-15,123155.42857142857,7
+France,Academic researcher,15-20,41605.142857142855,7
+France,Academic researcher,2-5,37622.142857142855,21
+France,Academic researcher,20+,52305.0,4
+France,Academic researcher,5-7,51349.454545454544,11
+France,Academic researcher,7-10,32423.222222222223,9
+France,Data or business analyst,0-2,67405.71428571429,14
+France,Data or business analyst,10-15,91573.0,8
+France,Data or business analyst,15-20,85931.0,1
+France,Data or business analyst,2-5,50812.25,16
+France,Data or business analyst,20+,100251.5,4
+France,Data or business analyst,5-7,35689.333333333336,6
+France,Data or business analyst,7-10,59120.0,5
+France,Data scientist & ML,0-2,62190.6,25
+France,Data scientist & ML,10-15,77338.0,6
+France,Data scientist & ML,15-20,67599.0,2
+France,Data scientist & ML,2-5,67430.53333333334,30
+France,Data scientist & ML,20+,85926.0,2
+France,Data scientist & ML,5-7,60268.0,9
+France,Data scientist & ML,7-10,55207.125,8
+France,Database administrator,0-2,57381.944444444445,18
+France,Database administrator,10-15,60796.11111111111,9
+France,Database administrator,15-20,85152.06666666667,15
+France,Database administrator,2-5,74421.0,28
+France,Database administrator,20+,47845.71428571428,7
+France,Database administrator,5-7,52761.2,10
+France,Database administrator,7-10,52436.0,6
+France,DevOps specialist,0-2,188762.25,4
+France,DevOps specialist,10-15,57287.0,1
+France,DevOps specialist,15-20,96240.0,1
+France,DevOps specialist,2-5,43324.42857142857,7
+France,DevOps specialist,7-10,52091.666666666664,3
+France,"Developer, back-end",0-2,73122.24786324786,117
+France,"Developer, back-end",10-15,107524.67948717948,78
+France,"Developer, back-end",15-20,87396.60606060606,33
+France,"Developer, back-end",2-5,81193.12962962964,216
+France,"Developer, back-end",20+,168716.60869565216,23
+France,"Developer, back-end",5-7,58402.517857142855,56
+France,"Developer, back-end",7-10,107549.74117647059,85
+France,"Developer, front-end",0-2,53681.09523809524,21
+France,"Developer, front-end",10-15,51466.4,5
+France,"Developer, front-end",15-20,82684.83333333333,6
+France,"Developer, front-end",2-5,90427.04166666667,24
+France,"Developer, front-end",20+,95670.0,2
+France,"Developer, front-end",5-7,94613.38461538461,13
+France,"Developer, front-end",7-10,65117.11111111111,9
+France,"Developer, full-stack",0-2,54532.17333333333,75
+France,"Developer, full-stack",10-15,122399.07894736843,38
+France,"Developer, full-stack",15-20,100433.5,14
+France,"Developer, full-stack",2-5,115324.9603960396,101
+France,"Developer, full-stack",20+,60299.0,7
+France,"Developer, full-stack",5-7,54050.92857142857,28
+France,"Developer, full-stack",7-10,55409.19512195122,41
+Germany,Academic researcher,0-2,34843.34375,64
+Germany,Academic researcher,10-15,140869.2258064516,31
+Germany,Academic researcher,15-20,84334.38888888889,18
+Germany,Academic researcher,2-5,51599.72277227723,101
+Germany,Academic researcher,20+,168714.66666666666,12
+Germany,Academic researcher,5-7,94133.25,52
+Germany,Academic researcher,7-10,117623.09375,64
+Germany,Data or business analyst,0-2,95590.30952380953,42
+Germany,Data or business analyst,10-15,169012.38095238095,21
+Germany,Data or business analyst,15-20,78482.0625,16
+Germany,Data or business analyst,2-5,79363.3829787234,47
+Germany,Data or business analyst,20+,148615.61111111112,18
+Germany,Data or business analyst,5-7,120369.80952380953,21
+Germany,Data or business analyst,7-10,111375.57692307692,26
+Germany,Data scientist & ML,0-2,79275.04166666667,24
+Germany,Data scientist & ML,10-15,150551.25,12
+Germany,Data scientist & ML,15-20,93493.71428571429,7
+Germany,Data scientist & ML,2-5,85405.75,48
+Germany,Data scientist & ML,20+,266337.4705882353,17
+Germany,Data scientist & ML,5-7,56579.07142857143,14
+Germany,Data scientist & ML,7-10,124623.28,25
+Germany,Database administrator,0-2,39967.03125,32
+Germany,Database administrator,10-15,155235.89361702127,47
+Germany,Database administrator,15-20,174885.5,26
+Germany,Database administrator,2-5,95664.43689320388,103
+Germany,Database administrator,20+,149766.1875,16
+Germany,Database administrator,5-7,84758.62162162163,37
+Germany,Database administrator,7-10,122513.87272727273,55
+Germany,DevOps specialist,0-2,192392.8,5
+Germany,DevOps specialist,10-15,87650.0,2
+Germany,DevOps specialist,15-20,98534.5,2
+Germany,DevOps specialist,2-5,187583.42857142858,7
+Germany,DevOps specialist,5-7,83639.66666666667,3
+Germany,DevOps specialist,7-10,86504.0,4
+Germany,"Developer, back-end",0-2,55671.705882352944,187
+Germany,"Developer, back-end",10-15,145367.38547486035,179
+Germany,"Developer, back-end",15-20,159330.31683168316,101
+Germany,"Developer, back-end",2-5,106868.28333333334,360
+Germany,"Developer, back-end",20+,171597.33333333334,66
+Germany,"Developer, back-end",5-7,114193.04395604396,182
+Germany,"Developer, back-end",7-10,134742.618852459,244
+Germany,"Developer, front-end",0-2,70638.29787234042,47
+Germany,"Developer, front-end",10-15,145844.1739130435,23
+Germany,"Developer, front-end",15-20,104135.11111111111,9
+Germany,"Developer, front-end",2-5,129196.66101694915,59
+Germany,"Developer, front-end",20+,75046.5,2
+Germany,"Developer, front-end",5-7,112417.96875,32
+Germany,"Developer, front-end",7-10,102832.44827586207,29
+Germany,"Developer, full-stack",0-2,100455.38271604938,81
+Germany,"Developer, full-stack",10-15,121657.91803278688,61
+Germany,"Developer, full-stack",15-20,122185.47619047618,42
+Germany,"Developer, full-stack",2-5,67205.02777777778,144
+Germany,"Developer, full-stack",20+,143926.29411764705,17
+Germany,"Developer, full-stack",5-7,108635.27659574468,47
+Germany,"Developer, full-stack",7-10,107766.89873417722,79
+Greece,Academic researcher,0-2,18788.285714285714,7
+Greece,Academic researcher,10-15,51393.57142857143,7
+Greece,Academic researcher,15-20,65080.0,3
+Greece,Academic researcher,2-5,20656.18181818182,11
+Greece,Academic researcher,20+,3450.0,1
+Greece,Academic researcher,5-7,17521.5,6
+Greece,Academic researcher,7-10,866184.0,1
+Greece,Data or business analyst,0-2,21083.5,6
+Greece,Data or business analyst,10-15,17602.5,2
+Greece,Data or business analyst,15-20,26124.0,1
+Greece,Data or business analyst,2-5,104214.28571428571,7
+Greece,Data or business analyst,20+,91660.0,1
+Greece,Data or business analyst,5-7,32463.0,3
+Greece,Data or business analyst,7-10,9624.0,1
+Greece,Data scientist & ML,0-2,19242.25,4
+Greece,Data scientist & ML,10-15,91660.0,2
+Greece,Data scientist & ML,15-20,100000.0,1
+Greece,Data scientist & ML,2-5,15182.25,4
+Greece,Data scientist & ML,7-10,68748.0,1
+Greece,Database administrator,0-2,13415.142857142857,7
+Greece,Database administrator,10-15,46594.666666666664,3
+Greece,Database administrator,15-20,20628.0,1
+Greece,Database administrator,2-5,50440.625,8
+Greece,Database administrator,20+,24344.0,2
+Greece,Database administrator,5-7,19295.0,4
+Greece,Database administrator,7-10,102931.625,8
+Greece,DevOps specialist,0-2,10104.0,1
+Greece,"Developer, back-end",0-2,14414.291666666666,24
+Greece,"Developer, back-end",10-15,105866.91666666667,12
+Greece,"Developer, back-end",15-20,99633.6,10
+Greece,"Developer, back-end",2-5,32811.181818181816,33
+Greece,"Developer, back-end",20+,30398.666666666668,6
+Greece,"Developer, back-end",5-7,29078.5,10
+Greece,"Developer, back-end",7-10,38918.5,4
+Greece,"Developer, front-end",0-2,15886.666666666666,3
+Greece,"Developer, front-end",10-15,26352.0,1
+Greece,"Developer, front-end",2-5,87021.5,4
+Greece,"Developer, front-end",5-7,22458.0,2
+Greece,"Developer, front-end",7-10,20000.0,1
+Greece,"Developer, full-stack",0-2,13406.625,8
+Greece,"Developer, full-stack",10-15,35460.25,4
+Greece,"Developer, full-stack",15-20,44684.0,3
+Greece,"Developer, full-stack",2-5,63102.692307692305,13
+Greece,"Developer, full-stack",5-7,28861.833333333332,6
+Greece,"Developer, full-stack",7-10,51581.0,4
+India,Academic researcher,0-2,20056.322580645163,62
+India,Academic researcher,10-15,79891.0,6
+India,Academic researcher,15-20,20472.0,4
+India,Academic researcher,2-5,45666.78082191781,73
+India,Academic researcher,20+,63424.0,4
+India,Academic researcher,5-7,86114.8,25
+India,Academic researcher,7-10,17359.5,12
+India,Data or business analyst,0-2,18945.780821917808,73
+India,Data or business analyst,10-15,78176.81818181818,11
+India,Data or business analyst,15-20,23396.5,2
+India,Data or business analyst,2-5,17431.205479452055,73
+India,Data or business analyst,20+,269186.3333333333,6
+India,Data or business analyst,5-7,26486.956521739132,23
+India,Data or business analyst,7-10,46907.75675675676,37
+India,Data scientist & ML,0-2,21969.872727272726,55
+India,Data scientist & ML,10-15,115647.41666666667,12
+India,Data scientist & ML,15-20,43004.666666666664,3
+India,Data scientist & ML,2-5,22310.983606557376,61
+India,Data scientist & ML,20+,37982.0,2
+India,Data scientist & ML,5-7,116893.0,14
+India,Data scientist & ML,7-10,41979.57142857143,14
+India,Database administrator,0-2,10059.620689655172,58
+India,Database administrator,10-15,23610.333333333332,6
+India,Database administrator,15-20,12861.0,4
+India,Database administrator,2-5,18919.860215053763,93
+India,Database administrator,20+,11316.5,6
+India,Database administrator,5-7,56072.666666666664,24
+India,Database administrator,7-10,27445.277777777777,18
+India,DevOps specialist,0-2,20912.416666666668,12
+India,DevOps specialist,10-15,27986.0,1
+India,DevOps specialist,15-20,453372.0,1
+India,DevOps specialist,2-5,17771.727272727272,11
+India,DevOps specialist,5-7,24161.0,3
+India,DevOps specialist,7-10,42679.0,2
+India,"Developer, back-end",0-2,10876.223844282238,411
+India,"Developer, back-end",10-15,101609.765625,64
+India,"Developer, back-end",15-20,30621.833333333332,12
+India,"Developer, back-end",2-5,25070.708661417324,508
+India,"Developer, back-end",20+,20934.285714285714,14
+India,"Developer, back-end",5-7,27984.615384615383,195
+India,"Developer, back-end",7-10,56831.46086956522,115
+India,"Developer, front-end",0-2,9186.656862745098,102
+India,"Developer, front-end",10-15,67201.0,15
+India,"Developer, front-end",15-20,11894.0,1
+India,"Developer, front-end",2-5,24072.78761061947,113
+India,"Developer, front-end",20+,12588.0,1
+India,"Developer, front-end",5-7,30144.28,50
+India,"Developer, front-end",7-10,40918.11111111111,27
+India,"Developer, full-stack",0-2,15086.813636363637,220
+India,"Developer, full-stack",10-15,68763.25925925926,27
+India,"Developer, full-stack",15-20,53548.142857142855,7
+India,"Developer, full-stack",2-5,26585.20792079208,202
+India,"Developer, full-stack",20+,204178.0,4
+India,"Developer, full-stack",5-7,29759.164556962027,79
+India,"Developer, full-stack",7-10,21644.490566037737,53
+Poland,Academic researcher,0-2,13914.0,10
+Poland,Academic researcher,10-15,30971.8,5
+Poland,Academic researcher,15-20,17369.0,1
+Poland,Academic researcher,2-5,21983.58823529412,17
+Poland,Academic researcher,5-7,82374.28571428571,7
+Poland,Academic researcher,7-10,43234.8,10
+Poland,Data or business analyst,0-2,18831.277777777777,18
+Poland,Data or business analyst,10-15,47308.8,5
+Poland,Data or business analyst,15-20,62299.333333333336,6
+Poland,Data or business analyst,2-5,31602.36842105263,19
+Poland,Data or business analyst,5-7,36205.25,4
+Poland,Data or business analyst,7-10,49734.0,10
+Poland,Data scientist & ML,0-2,25398.75,16
+Poland,Data scientist & ML,10-15,75076.25,4
+Poland,Data scientist & ML,15-20,85500.0,1
+Poland,Data scientist & ML,2-5,50177.38461538462,13
+Poland,Data scientist & ML,20+,56112.0,2
+Poland,Data scientist & ML,5-7,46492.0,3
+Poland,Data scientist & ML,7-10,52063.42857142857,7
+Poland,Database administrator,0-2,53622.46153846154,13
+Poland,Database administrator,10-15,56015.666666666664,9
+Poland,Database administrator,15-20,52102.6,5
+Poland,Database administrator,2-5,32533.944444444445,18
+Poland,Database administrator,20+,31104.0,5
+Poland,Database administrator,5-7,65488.42857142857,14
+Poland,Database administrator,7-10,43482.28571428572,14
+Poland,DevOps specialist,0-2,23940.0,3
+Poland,DevOps specialist,10-15,51300.0,1
+Poland,DevOps specialist,2-5,37552.8,5
+Poland,DevOps specialist,5-7,38472.0,1
+Poland,DevOps specialist,7-10,38472.0,1
+Poland,"Developer, back-end",0-2,18129.635135135137,148
+Poland,"Developer, back-end",10-15,78084.07692307692,65
+Poland,"Developer, back-end",15-20,56081.666666666664,9
+Poland,"Developer, back-end",2-5,39104.041884816754,191
+Poland,"Developer, back-end",20+,59157.333333333336,9
+Poland,"Developer, back-end",5-7,40970.246753246756,77
+Poland,"Developer, back-end",7-10,48289.454545454544,77
+Poland,"Developer, front-end",0-2,16861.225806451614,31
+Poland,"Developer, front-end",10-15,38728.8,5
+Poland,"Developer, front-end",2-5,36290.0,22
+Poland,"Developer, front-end",5-7,52052.875,8
+Poland,"Developer, front-end",7-10,56241.88888888889,9
+Poland,"Developer, full-stack",0-2,17444.636363636364,33
+Poland,"Developer, full-stack",10-15,46814.666666666664,18
+Poland,"Developer, full-stack",15-20,65736.0,1
+Poland,"Developer, full-stack",2-5,48656.705882352944,51
+Poland,"Developer, full-stack",20+,91593.0,1
+Poland,"Developer, full-stack",5-7,43997.5,18
+Poland,"Developer, full-stack",7-10,47925.56,25
+United Kingdom,Academic researcher,0-2,65129.17857142857,28
+United Kingdom,Academic researcher,10-15,137834.88235294117,17
+United Kingdom,Academic researcher,15-20,103026.25,16
+United Kingdom,Academic researcher,2-5,102311.475,40
+United Kingdom,Academic researcher,20+,116521.5,16
+United Kingdom,Academic researcher,5-7,194601.125,8
+United Kingdom,Academic researcher,7-10,208513.13636363635,22
+United Kingdom,Data or business analyst,0-2,102905.65,40
+United Kingdom,Data or business analyst,10-15,195917.8,30
+United Kingdom,Data or business analyst,15-20,173843.2142857143,28
+United Kingdom,Data or business analyst,2-5,146703.02,50
+United Kingdom,Data or business analyst,20+,224022.30434782608,46
+United Kingdom,Data or business analyst,5-7,215498.95,20
+United Kingdom,Data or business analyst,7-10,117716.57575757576,33
+United Kingdom,Data scientist & ML,0-2,86568.95652173914,23
+United Kingdom,Data scientist & ML,10-15,211605.16,25
+United Kingdom,Data scientist & ML,15-20,253583.86666666667,15
+United Kingdom,Data scientist & ML,2-5,167690.28260869565,46
+United Kingdom,Data scientist & ML,20+,104677.77777777778,9
+United Kingdom,Data scientist & ML,5-7,321949.4666666667,15
+United Kingdom,Data scientist & ML,7-10,125943.84615384616,13
+United Kingdom,Database administrator,0-2,79654.59574468085,47
+United Kingdom,Database administrator,10-15,180668.30952380953,42
+United Kingdom,Database administrator,15-20,204681.5128205128,39
+United Kingdom,Database administrator,2-5,122520.89024390244,82
+United Kingdom,Database administrator,20+,153301.925,40
+United Kingdom,Database administrator,5-7,121040.14285714286,35
+United Kingdom,Database administrator,7-10,161095.72727272726,55
+United Kingdom,DevOps specialist,0-2,182295.8,10
+United Kingdom,DevOps specialist,10-15,243276.0,6
+United Kingdom,DevOps specialist,15-20,97917.33333333333,3
+United Kingdom,DevOps specialist,2-5,165054.4375,16
+United Kingdom,DevOps specialist,20+,105550.55555555556,9
+United Kingdom,DevOps specialist,5-7,172786.0,9
+United Kingdom,DevOps specialist,7-10,88321.75,4
+United Kingdom,"Developer, back-end",0-2,113750.3,210
+United Kingdom,"Developer, back-end",10-15,178893.10606060605,198
+United Kingdom,"Developer, back-end",15-20,221008.7014925373,134
+United Kingdom,"Developer, back-end",2-5,139749.94545454546,330
+United Kingdom,"Developer, back-end",20+,241428.96875,128
+United Kingdom,"Developer, back-end",5-7,184793.55194805196,154
+United Kingdom,"Developer, back-end",7-10,181374.33673469388,196
+United Kingdom,"Developer, front-end",0-2,110243.3090909091,55
+United Kingdom,"Developer, front-end",10-15,118608.58620689655,29
+United Kingdom,"Developer, front-end",15-20,224760.9090909091,11
+United Kingdom,"Developer, front-end",2-5,189719.68181818182,66
+United Kingdom,"Developer, front-end",20+,426139.85714285716,7
+United Kingdom,"Developer, front-end",5-7,134254.02702702704,37
+United Kingdom,"Developer, front-end",7-10,173283.22222222222,27
+United Kingdom,"Developer, full-stack",0-2,135772.8590604027,149
+United Kingdom,"Developer, full-stack",10-15,186482.0,106
+United Kingdom,"Developer, full-stack",15-20,173953.6923076923,78
+United Kingdom,"Developer, full-stack",2-5,151755.401826484,219
+United Kingdom,"Developer, full-stack",20+,263426.9649122807,57
+United Kingdom,"Developer, full-stack",5-7,152055.48387096773,93
+United Kingdom,"Developer, full-stack",7-10,161619.66666666666,105
+United States,Academic researcher,0-2,237166.83333333334,120
+United States,Academic researcher,10-15,271859.8939393939,66
+United States,Academic researcher,15-20,315992.350877193,57
+United States,Academic researcher,2-5,181479.9648241206,199
+United States,Academic researcher,20+,255254.796875,64
+United States,Academic researcher,5-7,239784.40506329114,79
+United States,Academic researcher,7-10,190726.34653465348,101
+United States,Data or business analyst,0-2,218230.4845814978,227
+United States,Data or business analyst,10-15,247751.03496503495,143
+United States,Data or business analyst,15-20,269115.77777777775,108
+United States,Data or business analyst,2-5,265155.8020833333,288
+United States,Data or business analyst,20+,264032.95238095237,147
+United States,Data or business analyst,5-7,336155.1775700935,107
+United States,Data or business analyst,7-10,255324.22794117648,136
+United States,Data scientist & ML,0-2,292049.275862069,116
+United States,Data scientist & ML,10-15,309879.31944444444,72
+United States,Data scientist & ML,15-20,250675.1219512195,41
+United States,Data scientist & ML,2-5,281157.3988439306,173
+United States,Data scientist & ML,20+,318417.5238095238,63
+United States,Data scientist & ML,5-7,277333.25,68
+United States,Data scientist & ML,7-10,289453.66315789474,95
+United States,Database administrator,0-2,244940.4296875,128
+United States,Database administrator,10-15,211863.0642201835,218
+United States,Database administrator,15-20,206340.34027777778,144
+United States,Database administrator,2-5,265832.4882629108,213
+United States,Database administrator,20+,274473.90506329114,158
+United States,Database administrator,5-7,284581.27906976745,129
+United States,Database administrator,7-10,275321.7256097561,164
+United States,DevOps specialist,0-2,140631.57894736843,19
+United States,DevOps specialist,10-15,139978.41666666666,12
+United States,DevOps specialist,15-20,230349.33333333334,12
+United States,DevOps specialist,2-5,208030.0,48
+United States,DevOps specialist,20+,333141.6666666667,12
+United States,DevOps specialist,5-7,565312.5,8
+United States,DevOps specialist,7-10,280470.5882352941,17
+United States,"Developer, back-end",0-2,244149.74512534818,718
+United States,"Developer, back-end",10-15,255516.62174578867,653
+United States,"Developer, back-end",15-20,257596.527593819,453
+United States,"Developer, back-end",2-5,247002.53225806452,1178
+United States,"Developer, back-end",20+,219786.83405172414,464
+United States,"Developer, back-end",5-7,231946.88484848486,495
+United States,"Developer, back-end",7-10,276766.7122186495,622
+United States,"Developer, front-end",0-2,214677.93127147766,291
+United States,"Developer, front-end",10-15,182919.03846153847,104
+United States,"Developer, front-end",15-20,248369.30952380953,42
+United States,"Developer, front-end",2-5,233333.3772241993,281
+United States,"Developer, front-end",20+,236979.16666666666,24
+United States,"Developer, front-end",5-7,257552.5,104
+United States,"Developer, front-end",7-10,263076.2580645161,124
+United States,"Developer, full-stack",0-2,203822.36785714285,560
+United States,"Developer, full-stack",10-15,227610.2996941896,327
+United States,"Developer, full-stack",15-20,273195.9220779221,231
+United States,"Developer, full-stack",2-5,252917.39389920424,754
+United States,"Developer, full-stack",20+,246188.48260869566,230
+United States,"Developer, full-stack",5-7,218797.48514851485,303
+United States,"Developer, full-stack",7-10,263302.5205479452,365
