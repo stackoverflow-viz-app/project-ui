@@ -1,5 +1,5 @@
 <template>
-  <svg id='gapMinder'></svg>
+  <svg id='bubble_chart'></svg>
 </template>
 
 <script>
@@ -41,29 +41,32 @@ export default {
       this.tip = d3Tip()
         .attr('class', 'd3-tip')
         .html((d) => `<strong>Type: </strong><span class='details'>${d.devType}<br></span>`
-                  + `<strong>Mean Ed. Level: </strong><span class='details'>${d.levelEd.toFixed(2)}<br></span>`
                   + `<strong>Mean Salary: </strong><span class='details'>${d.salary.toFixed(2)}<br></span>`
                   + `<strong>Size: </strong><span class='details'>${d.size}<br></span>`);
 
       this.svg = d3
-        .select('#gapMinder')
+        .select('#bubble_chart')
         .attr('width', '100%')
         .attr('height', this.height);
 
       this.svg.call(this.tip);
 
       this.xScale = d3.scaleLinear()
-        .domain([1.5, 4])
-        .range([100, 700]);
+        .domain([0, 4])
+        .range([100, this.getWidth() - this.margin]);
       this.yScale = d3.scaleLinear()
         .domain([10000, 300000])
         .range([400, 30]);
-
       this.rScale = d3.scaleSqrt()
         .range([0, 50]);
 
       const leftAxis = d3.axisLeft(this.yScale);
-      const bottomAxis = d3.axisBottom(this.xScale);
+
+      const tickLabels = ['','No Degree','B.Sc.','M.Sc.', 'Phd'];
+      const xAxisTicks = this.xScale.ticks()
+      .filter(tick => Number.isInteger(tick));  
+      const bottomAxis = d3.axisBottom(this.xScale).tickValues(xAxisTicks)
+        .tickFormat(function(d,i){ return tickLabels[i] });
 
       this.svg.append('g')
         .attr('transform', 'translate(100,0)')
@@ -92,7 +95,7 @@ export default {
     },
     readData() {
       Promise.all([
-        d3.dsv('|', './data/gapminder.csv'),
+        d3.dsv('|', './data/education_devType.csv'),
       ]).then(
         (d) => {
           // eslint-disable-next-line prefer-destructuring
@@ -159,7 +162,7 @@ export default {
         .on('mouseout', tip.hide);
     },
     getWidth() {
-      return d3.select('#gapMinder')
+      return d3.select('#bubble_chart')
         .style('width')
         .slice(0, -2);
     },
