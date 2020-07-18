@@ -24,10 +24,10 @@
               <v-card-text>
 
                 <h3>Education impact over Developer Type</h3>
-                <GapMinderChart
+                <BubbleChart
                   :height="450" :margin="20"
                   y-title="Mean Salary"
-                  x-title="Educational Level, From (1 No Degree) To (4 Phd Degree)"
+                  x-title="Educational Level, From (No Degree) To (Phd Degree)"
                   :selectedCountries="selectedCountries"
                   :selectedDevTypes="selectedDevTypes"/>
               </v-card-text>
@@ -78,7 +78,7 @@ import Filters from '../base/Filters.vue';
 import Legend from '../base/Legend.vue';
 import RadarChart from '../diagrams/RadarChart.vue';
 import MultiLineChart from '../diagrams/MultiLineChart.vue';
-import GapMinderChart from '../diagrams/GapMinderChart.vue';
+import BubbleChart from '../diagrams/BubbleChart.vue';
 import NetworkGraph from '../diagrams/NetworkGraph.vue';
 
 export default {
@@ -88,7 +88,7 @@ export default {
     Legend,
     RadarChart,
     MultiLineChart,
-    GapMinderChart,
+    BubbleChart,
     NetworkGraph,
   },
   data() {
