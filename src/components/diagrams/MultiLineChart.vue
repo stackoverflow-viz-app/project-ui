@@ -133,7 +133,9 @@ export default {
             };
         });
 
-        lines.selectAll('.line-group')
+      nestedData = nestedData.sort((a, b) => a.key.localeCompare(b.key));
+
+      lines.selectAll('.line-group')
         .data(nestedData).enter()
         .append('g')
         .attr('class', 'line-group')
