@@ -101,7 +101,7 @@ export default {
         let result = []
 		result = [
 			{axis:"Remote Working",value: items.WorkRemote},
-			{axis:"Working Hours",value:items.WorkWeekHrs},
+			{axis:"Avoid Overtimes",value:items.WorkWeekHrs},
 			{axis:"Career Satisfaction",value:items.CareerSat},
 			{axis:"Job Satisfaction",value:items.JobSat}
 		]
