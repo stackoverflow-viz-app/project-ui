@@ -1,24 +1,19 @@
-# project-ui
+# Stack Overflow Dashboard
 
-## Project setup
-```
-npm install
-```
+## Project subject
+This repository holds a VueJS dashboard which represents characteristics and insights regarding IT Developers' career path. The motication behind this analysis and visualizations is to gain a more valueable perspective about Developer's assets such educational background, working hours, technologies, salary, etc based on 2019 StackOverflow annual survey. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The data analysis was conducted on StackOverflow annual survey which can be found [here](https://insights.stackoverflow.com/survey). 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Project libraries
+ * D3js 
+ * VueJS
+ * Vuetify
+ 
+### Project links
+ * [Live DEMO](https://stackoverflow-viz-app.github.io/stackoverflow-developers-insights/#/)
+ * [Youtube Video](https://www.youtube.com/watch?v=wSOmzuOE2eA) 
+ 
+### Authors
+ * [Nikolas Bompetsis](https://github.com/nbompetsis)
+ * [Arianna Tryantafyllou](https://github.com/ariannatr) 
