@@ -18,4 +18,4 @@ This project constitutes the final project of Data Visualisation course 2019 - 2
  
 ### Authors
  * [Nikolas Bompetsis](https://github.com/nbompetsis)
- * [Arianna Tryantafyllou](https://github.com/ariannatr) 
+ * [Arianna Triantafyllou](https://github.com/ariannatr) 
